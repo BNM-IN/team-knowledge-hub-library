@@ -1,0 +1,922 @@
+0:01
+Hello everyone and welcome. I am Brites Kala. I am one of the mentors at
+0:07
+Outskill and an NA10 expert if I can say so myself. uh I think uh everyone would
+0:13
+have actually used NAM over the uh past few days to understand uh how you can
+0:20
+use the system to automate your workflows and uh it is an extremely
+0:26
+versatile uh software which allows you to connect a lot of services and create
+0:31
+very very complex automations. uh these automations can do everything from you
+0:36
+know doing uh you know automating repetitive work to as much as building
+0:42
+the entire back end of websites. Uh so what we're going to do is as you may
+0:47
+have noticed uh when you are doing this online on nat.io IO, you have to pay a
+0:53
+subscription of about €25 a month, right? About 20 to€25 a month
+0:59
+and that can get expensive quickly. Also, what happens is uh because this is
+1:05
+on the cloud, because this is online, you know, there are a lot of uh local
+1:10
+things which you can't connect to. So, for example, if you want to use files
+1:14
+which are there on your computer, you can't use these as part of your
+1:17
+workload. Uh similarly if there are for example if there's a local LLM running
+1:22
+on your computer you cannot use this as part of workflows in uh when you're
+1:26
+running this online. So there are a lot of these kind of restrictions when
+1:30
+you're using the nit cloud version. Uh but nit is an open-source software which
+1:36
+means that you know you can actually download any and host it yourself and
+1:42
+that is what the self-hosted version is. So what we're going to do today is one I
+1:47
+am going to quickly take you through you know uh choosing which version is right
+1:52
+for you and you know how to make that choice for yourself and once we done uh
+1:56
+I'm also going to tell you how to actually uh you know download uh install
+2:01
+and run any on your own computer. So let's get started. Uh so as you can see
+2:07
+uh today's agenda is very simple. We're going to actually compare you know what
+2:11
+the cloud version can do versus what the local version can do. Uh we're also
+2:15
+going to actually see some decision matrixes which allow you to choose which
+2:20
+of these is the right setup. And finally we're going to you know understand the
+2:25
+benefits of each of these versions as well as the drawbacks.
+2:30
+So uh we all know what any is so you know I will skip this slide. uh we all
+2:35
+know that you know it is something which can create workflows and can connect
+2:39
+with a thousand thousand applications and more. Okay. Uh and we know now know
+2:46
+that there are two ways to run any one is that you know when it's running on
+2:49
+our own computer and one when it is running on any.io or in the cloud.
+2:56
+So what does each uh version provide? All right. One of the biggest benefits
+3:00
+of running this in the cloud is that you can sign up for an account and start
+3:04
+building workflows immediately. So what happens is there is no set there is no
+3:09
+downloading of anything. there is no setup. You don't need to configure each
+3:12
+node separately. And so uh what is the uh but for that convenience of speed
+3:19
+what happens is we lack uh we lose control right uh we so any data which
+3:27
+you actually upload into those workflow uh n.io will get access to that data if
+3:32
+you know you basically uh connected to any of the um APIs your data goes there.
+3:39
+So you'll lack privacy in the online. All right. Uh
+3:45
+so here is exactly what you gain and lose. Uh any time needs a monthly
+3:50
+payment. All right. As we just discussed. Uh but also for that payment
+3:54
+what happens is you get uh an inbuilt N10 AI. What does that AI do? It helps
+4:00
+you do a few things. One is that you can chat with it and tell it what workflow
+4:05
+you want and it will build most of that workflow for you. So you know you don't
+4:10
+need to sit and sit and start a workflow from scratch and start building workflow
+4:14
+from the beginning. Uh the other is the thing where it can really help is if you
+4:20
+basically created a workflow and it has some errors. So with uh with the press
+4:26
+of just one button you can actually get help with uh N10's AI and which can help
+4:33
+you resolve those error. This N10 AI is only available in the online version. It
+4:38
+is not available in the version which you host on your own computer. All
+4:43
+right. Uh the other thing which happens is because your workflows are online in
+4:48
+the cloud that means that you can actually uh have collaboration with
+4:54
+teammates. So for example if a team is working on net 10 at the same time you
+4:59
+can actually use the online version where multiple people get access to the
+5:03
+workflows can work on the workflows and so on. The local version of NA10 you
+5:08
+cannot do that that is local to your machine. So you know no one else can
+5:12
+access those workloads or collaborate with for the local one. The benefit
+5:17
+obviously the biggest benefit is that it is free to use. But the drawback is that
+5:21
+it cost for you to maintain. How does it cost? It is the it is the time you put
+5:27
+in to both install as well as configure. Okay. But at the same time the local one
+5:33
+provides you full control. You can do anything you want with it. And that is
+5:37
+why you can build extremely complex workflows with it. Uh the third and the
+5:42
+biggest thing is that you know anything which you build in any locally that
+5:47
+stays with you. It is not it does not go online. It does not get shared with
+5:52
+another company and so uh so one of the big uh issues with uh
+5:58
+Nitan as I was mentioning is in terms of how you sign into services. So let me
+6:03
+quickly demonstrate how this works. All right. I will what I'll do is I will
+6:08
+quickly open up my instance of any type. Uh this is hosted locally. All right.
+6:15
+And I'll quickly show you what I so whenever you add a node. So for example,
+6:20
+let's say that I want to add the Facebook. All right. I will do this
+6:26
+where uh for example I add this. So to set up a credential what you would nor
+6:31
+normally do is go here click on create a credential and then in the online
+6:37
+version there will be a sign in with Facebook button. What that means is you
+6:41
+can just click that button put in your username and password click on sign in
+6:45
+and immediately your Facebook account gets uh gets linked to n. Okay this is
+6:52
+not how it works in the local version uh of n. So over here what happens is you
+6:59
+will then need to click on this button called this link called open docs. Once
+7:03
+you click this you will be taken to any uh documentation. All right and the
+7:09
+entire documentation of how to connect to uh uh Facebook is given over here.
+7:15
+The step-by-step instructions are amazing. They are very detailed and you
+7:19
+can follow along and do everything. But the point is that what happens is you
+7:24
+connecting to Facebook's API yourself and that means that you will need to get
+7:29
+an API access token. You will need to ensure that you understand how APIs
+7:33
+work, how to configure APIs and so on. All right? So it's a long process which
+7:39
+needs to be followed step by step. And generally the first time you set up
+7:43
+Facebook, uh this process can sometimes take as much as 30 to 45 minutes. You
+7:49
+can you only need to do this once. This is not something which you need to do
+7:52
+again and again. All right. But what this means is that every time the first
+7:57
+time you configure a node, you have to go through this process and put in about
+8:01
+30 to 45 minutes configuring. Uh so that is the big draw down drawback of using
+8:08
+the local version. All right, let's get back to the presentation.
+8:14
+Uh the other is uh the local anytime provides local power. Right. uh what are
+8:20
+these one as I said is I let's say I have an excel file uh from work which I
+8:26
+want to use inside of a workbook now because this is from work uh you know
+8:31
+some a lot of companies will have restrictions that you know you can't
+8:34
+upload this kind of file onto any okay but if it is local what happens is I can
+8:40
+just import it into any so how would I do this let me quickly show you right so
+8:46
+this is my workflow all right I will use something called
+8:51
+read. Okay, read and write files from this. So I could read the file into my
+8:56
+workflow. So what happens is it brings that file into my workflow and I start
+9:00
+can use it immediately and start working with it. So you know this is a big
+9:04
+benefit if you work in an office where you know there are these kind of
+9:08
+restrictions. The other bit is that it allows you very complex command
+9:13
+execution. Uh so I don't know when you've used N till now if you ever had
+9:19
+the chance to use a code node. What a code node does is it lets you run code
+9:23
+inside of N which is why N is more powerful than other automation platforms
+9:28
+like Zapier for example. Uh but the local version is even more powerful.
+9:34
+What that allows you to do is it allows you to run PowerShell scripts. It allows
+9:38
+you to run Python scripts very very complex Python scripts directly on your
+9:43
+computer. Why is this not possible in the online version? Because the online
+9:47
+version runs inside of a very restricted environment where you know you don't
+9:51
+have a lot of Python libraries available and you can't add new Python libraries
+9:55
+in the local version because Python is running on your own computer. You can
+9:59
+add whatever you want and you can run create Python very very complex Python
+10:03
+scripts and ensure that they still work. So that is one of the big benefits of
+10:09
+using the local version. Finally, as I said, the online version provides an AI
+10:13
+assistant that is amazing, especially when you're starting out uh with
+10:18
+experimenting with anything. What that allows you to do is you know get help
+10:22
+whenever you need. Uh the other thing which I wanted to
+10:26
+actually explore and you know this is getting better. So uh for the local
+10:30
+version what happens is as I said N10 is an open-source platform right which
+10:35
+means that it has a massive community of users which actually helps with
+10:40
+development. What this does is that it actually allows developers to create uh
+10:48
+uh nodes for you. Right? So you can go to something called NC nodes.
+10:55
+All right. And you'll be able to see that there is something called community
+10:59
+nodes available over here. All right. And if you see uh
+11:05
+click on browse packages and you will see that there are thousands. So over
+11:09
+here there are 6 7,000 plus community nodes which are listed over here. So
+11:13
+what happens is if you can't find a specific node inside of your online
+11:19
+version of any there is a good chance that you'll actually find it over here.
+11:24
+uh for the online version uh what Niten as a company has done is that they have
+11:30
+actually tested and curated specific uh specific nodes from the community and
+11:36
+allowed them to run inside of the online version. In the local version you don't
+11:40
+need to do that. You can create a node yourself and use that as part of your
+11:44
+workflow and that becomes extremely powerful.
+11:50
+So yeah uh so as I said community nodes is a superpower which is mainly
+11:57
+available in the local version. Finally as I said there is a difference in
+12:02
+costs. Uh one requires a subscription the other requires time. Uh and all of
+12:08
+this we'll actually explore these things further once we get to the decision
+12:12
+matrices. Uh so we've discussed privacy and
+12:16
+security and how they differ between the two versions. All right. So how do we
+12:21
+decide which of these two is right for us? Uh so this depends on you know how
+12:26
+you're going to use it and where you're going to use. Are you going to use this
+12:30
+yourself or are you going to use this as part of your work for a company? All
+12:35
+right. Are you going to use run things very complex things locally or are you
+12:41
+happy to build uh workflows where you know everything is hosted online. So for
+12:45
+example are your all your docs available in G drive or are your is your email
+12:51
+only Gmail. All right. These are the kind of decisions which you'll have to
+12:56
+make if you actually use the online version. So let's get to the decision
+13:01
+matrices. Right. Uh this one is for personal use. So if you're just starting
+13:07
+out, my recommendation is start with NA10 cloud. Uh why? Because one, it lets
+13:14
+you actually start building workflows immediately. Okay. And also uh what
+13:20
+happens is it ensures that you know every single node works very very
+13:26
+easily. All right. So start on Nate and cloud if you're just starting out. But
+13:30
+if you have a little experience, if you have a little background in you know
+13:34
+configuring complex systems, then please go to the local version. All right. As I
+13:39
+said, setup effort today is low in the cloud version. But uh in when it comes
+13:45
+to budget, you have to pay a monthly subscription. All right. Data
+13:50
+sensitivity. What happens is if you're working with sensitive data, you can't
+13:54
+work with the online cloud version. You will prefer the local version.
+13:59
+uh if you want local file access or if you want to run things on your own
+14:03
+computer again you need the local version uh web hooks and public URL what
+14:08
+happens is this is something which works directly in N10 cloud but if you
+14:13
+actually want to run uh this on your local version you have to set up
+14:18
+something called a tunnel so where is this visible the most when you're
+14:23
+actually using a web so let me quickly show you how this works all All right.
+14:28
+And I'll quickly go back uh into any. So what happens is let's say you have a
+14:34
+web. All right. Let's say we're using a web
+14:39
+uh trigger. All right. So you see the test URL I have over here. It says local
+14:45
+host and 567. Okay. What this means is that uh my uh web hook is not connected
+14:55
+to the internet at all. to be able to actually get a web hook notification
+15:01
+from the internet internally I have to set up something called a tunnel and you
+15:06
+know that is a more complex topic which I won't be covering today but the idea
+15:10
+is uh there are services like cloudflare or enro which you would need to use to
+15:17
+set up a tunnel and then configure the tunnel so that you can actually connect
+15:21
+what is there on your computer to what is there in online uh this is something
+15:27
+which you know the online version does automatically for you.
+15:32
+So web hooks and URLs work out of the box online. Over here you need to use a
+15:37
+tunnel. Finally as I said the AI assistant is extremely helpful when
+15:42
+you're just starting out uh which is not available in the local.
+15:47
+Now if you're working for a small team working for a company but it is a small
+15:51
+team right uh why is it things different for a small company? The reason is that
+15:56
+they have far more flexibility in terms of you know what they allow inside of a
+16:01
+company. All right. As compared to let's say a company which has thousand 10,000
+16:05
+employees. They would have very very strict guidelines of what can happen and
+16:09
+what can't happen. Okay. Uh so over here the preference again ideally would be
+16:16
+for any cloud. Okay. Over here if you see the speed to adopt there is again
+16:22
+Niten cloud is super fast. Uh collaboration obviously as I had
+16:28
+mentioned earlier Nit and cloud allows simple sharing and collaboration. Uh the
+16:33
+local version is single user by default. So you have to export your workflow then
+16:38
+give it to someone else and they would have to then import the workflow on
+16:41
+their computer reconfigure all of the nodes. it gets complex. Uh cost
+16:47
+controller right over here. There is monthly fees involved here. You can
+16:51
+either run it directly on your computer or host it on a server which is which
+16:56
+can be as little as $5 a month. All right. So it's very cheap to do this. Uh
+17:01
+so data residency which means that is where does your data reside. So over
+17:06
+here it is okay if you know you're working with nonsensitive data which you
+17:12
+know your company lets you share outside the company. Uh with the local version
+17:16
+what happens is everything is on either your computer or your local network. Uh
+17:22
+so here as I said what happens is if you're a small company there is a you
+17:28
+can actually choose either of them depending on how you want to use edit.
+17:34
+For large enterprises, what happens is one of the biggest things which is which
+17:40
+can become an issue for large enterprises is related to data privacy.
+17:45
+If you have a rule which says that you know you can not actually send any data
+17:51
+outside the company, you would have to use a local version of any. There is two
+17:55
+no way there are no two ways about it. Okay. But if you u uh are okay with uh
+18:03
+any level of security you know which they detail out very very clearly on
+18:08
+their website then you would be able to actually use the online version. So if
+18:13
+you see there isn't much difference when it comes to large enterprises. All
+18:17
+right. So this is the decision matrix. So now that we've done all of this I
+18:22
+think everyone should be now ready to see how to actually install any locally.
+18:28
+So to do this what I'm going to do is we're going to quickly get into the
+18:32
+demonstration of how this works. All right. So whenever you want to start
+18:37
+installation of Nitan locally what you do is you go to Google and you search
+18:41
+for any docker installation. Docker is a software which basically lets you uh it
+18:48
+is a complex piece of software. What that does is it created it downloads and
+18:54
+creates images of other software. What is an image? An image is basically a
+19:00
+copy of an online. So it would download a copy of any and save it locally. That
+19:06
+is what is an image. And because it is an image, what happens is uh it is an it
+19:13
+is isolated from the rest of your computer. So whatever happens inside
+19:17
+that image only affects the image. It doesn't impact the rest of your
+19:21
+computer. So it's a very safe way to run anything. So you click on the first link
+19:26
+which you see over here and it will give you the entire detailed instructions on
+19:30
+how to do this. So let's go through this together. All right. So to do this what
+19:34
+you need to do is you need to install something called Docker Desktop. And
+19:38
+when you click this link you will land on this page. Here you actually go to
+19:43
+download Docker Desktop. So over here if you see the URL is
+19:46
+docker.com/rouct/doccker. All right you click you go here and you
+19:52
+choose the version which is right for you. Over here if you see there are two
+19:55
+versions for windows. Uh generally you want to choose the AMD 64 version. But
+20:01
+if you are on one of the new copilot window uh you know laptops you will use
+20:06
+the ARM 64 version. All right. Download the one which is light for you and run
+20:11
+the installation. uh you know uh during the installation it might ask you to
+20:15
+restart or it might ask you to install uh Linux for Windows. Those are all
+20:20
+something which you want to upload. Okay. Uh once you install and run the
+20:24
+software you will actually see something like this come up. All right. And over
+20:30
+here if you save there are multiple options on the left. Right. What you
+20:36
+want to do is you want to go to something called Docker Hub. This is
+20:39
+where all the software which Docker allows you to run is visible and you can
+20:44
+run a lot. Okay. Uh I think you might have heard of Olama. All right. You
+20:49
+might have heard of things like if you are a developer you would have
+20:53
+definitely heard of TensorFlow and PyTorch uh and so on. Okay. If you are
+20:59
+uh if you use databases you would have heard of Postgress, MySQL, [ __ ] and so
+21:04
+on. So the idea is all of these can be run as images inside of a docker. What
+21:10
+you want to do is in the search bar type n IO all right / n8
+21:18
+and then hit enter. And what you see is right over here the first uh link which
+21:23
+you see is n.io/n just click on that. And once you have
+21:28
+this you will see that there are two options at the top. There's a pull
+21:33
+option and then there's a run option and in this you will see all the versions of
+21:38
+NA10 which are available to use. You always want to pull the latest version
+21:42
+ID. All right. Once you do this, you pull this version. What is pull? This is
+21:47
+the equivalent of downloading anything. Okay. Uh pull equals downloading. That
+21:53
+is something you just need to remember. All right. Once you actually download
+21:57
+this or pull this, what will happen is you will see this inside of something
+22:02
+called images on the left. So if you see there is something called images. When I
+22:05
+go to images, I will see n10 io/n over here. All right. This is just the
+22:12
+download. We've not installed this yet. All right. But before we do that, we
+22:17
+need to do a few configurations. So let's do those together. So um just like
+22:23
+every software what happens is you need a specific place to save all the data
+22:28
+which is created by the software. What is this data? This can be things like
+22:32
+workflows or settings you know which you actually creating inside of n. So what
+22:38
+you would do is you will go to the section called volumes because I have n
+22:43
+already installed. I have something called NA10 data but otherwise what you
+22:47
+would do is you will click on this button called create and type NA10
+22:53
+data and then uh click on create again. Now because I have this it will not let
+22:58
+me create this again but for you you just click on create and you will have a
+23:04
+volume called NA10 data created. So we now have two things. All right one
+23:11
+is we have the software downloaded. Second, we have a place to save the data
+23:15
+which the software will generate. All right. The third thing which we need is
+23:19
+configuration, right? Uh so you go back to images and uh we go back to the place
+23:26
+to the documentation. So if you see there is one there is a video over here
+23:31
+which actually explains all of the configuration. But if you go down over
+23:35
+here all right the configuration is listed over here. I will explain how to
+23:41
+read this configuration. Okay, we've already done the first step. We've
+23:46
+created the volume called NA10 data, right? We've done this already. So now
+23:52
+that we've done this, what we're going to do is we going to click on this play
+23:57
+button over here in images. So if you see I am in images, I'm clicking on this
+24:02
+play button. As soon as I create click on the play button, you will see that
+24:05
+there is optional settings. Let's just open this up and let's go back to this.
+24:09
+So if you see the name is what? NA10. So I will paste NA10 here.
+24:16
+I have a local NA10 running already. So 5678 is a
+24:22
+port which I already use. But if you're doing this for the first time, what you
+24:26
+do is you type 5 678 as the port. All right. I will not type 5 678. I will
+24:32
+type 4 567. All right? You can type anything. It has it ideally you want it
+24:37
+to be four digits long. Uh but the default is 5 6 7 8. Keeping the default
+24:44
+is extremely important because what happens is uh if you actually ask for
+24:49
+help online from let's say Gemini or CH GPT they will assume that you are
+24:55
+running anytime on 5678. So you know please keep 5678 as the port. All right.
+25:01
+Then comes volume. Okay. So if you see there is something called dash t this is
+25:07
+volumes all right and what was our uh what was the volume which we had created
+25:12
+it was n10 data right and what was the and you'll just copy this and paste it
+25:20
+in container path all right uh finally there is something called
+25:25
+environment variable and if you go back into the documentation there are a few
+25:30
+things with dash e over These are all environment variables and what we're
+25:35
+going to do is we going to copy and paste this. All right. So if you see
+25:41
+there is something called time zone over here and for time zone what you do is if
+25:46
+you scroll down there is something called uh so what will happen is
+25:56
+uh let me quickly search for the link.
+26:02
+So uh okay so if you go to Wikipedia time zones all
+26:14
+right you will see all the time zones listed over here.
+26:18
+Sorry this is not the right link. Let me quickly find the link. Give me a second
+26:21
+guys. Yeah here. All right so if you open this all the time zones for each
+26:26
+country are listed above. All right because I am in India I will search for
+26:30
+India. And what you'll see is uh I'll keep scrolling down and
+26:50
+uh so the time zone for so this uh for for
+26:56
+India all right it is Asia/ / quarter. All right. But you find
+27:04
+your time zone and in generic time zone you put this value. All right. Then
+27:09
+we're going to click on this plus sign and we again going to go and see what is
+27:15
+the next variable. The next variable is called tz. All right. So what we're
+27:20
+going to do is put this as tz and again copy and paste Asia/ Kolkata or your
+27:27
+time zone. Okay. What is the third variable in settings uh in the
+27:32
+documentation? This is the third variable. This entire thing is the third
+27:36
+variable. So we put this here and the value is true. All right. And finally
+27:44
+the fourth variable. And the value for this is also true. So
+27:53
+once you've done all of this, you only need to do this once. You don't need to
+27:58
+do this again and again. All right. Once you've done all of this, you just click
+28:01
+on run. All right. The first time you do this, this will install anytime on your
+28:07
+computer. It might take a little while. All right. So, please be patient. If you
+28:11
+see it has actually started to create a container and it is actually going to
+28:17
+install. So, this is going to take a few couple of minutes. Uh let this happen.
+28:22
+uh while this happens let me actually explain the difference between what is
+28:27
+an image and what is a container. So if you see on the left hand side there is
+28:31
+something called images and there is something called containers right. So
+28:35
+what are images? Images is a copy of the original software which has been
+28:40
+downloaded on your computer. So let's say you download any software what
+28:43
+happens is it goes in your downloads folder. You doubleclick it and install
+28:47
+it on your computer. All right. So the next time you want to run the software,
+28:51
+do you again go to the installation and double click it? Not no. Right? That is
+28:56
+the same thing which we do over here. So think of it this way that images are
+29:00
+downloaded copies of the software and containers are installed versions of
+29:05
+your software. So when you go to start and click on you know run something,
+29:10
+what happens is uh it starts running right. Uh so uh the we do the same
+29:18
+thing. So in images we will actually see the downloaded version of the software.
+29:23
+In containers we will see the uh we will see the uh installed version of any. So
+29:30
+every time we want to install this what we do is
+29:38
+we just click on this play button. All right. Now that this has been installed.
+29:42
+All right. We can actually uh
+30:03
+so this hasn't been installed for some reason. All right. Uh let me Yeah, there
+30:09
+it is. It's starting the installation. All right.
+30:24
+Yeah. So, as you can see, it's starting the installation.
+30:41
+All right. So over here we had actually put in 4567
+30:46
+as the uh installation. Okay. So what happens is once we actually use 4567 you
+30:52
+will land up on a sign up page. It will ask you for a few details and you can
+30:57
+just click sign up. Please ensure that you actually save your email and
+31:02
+password properly because what happens is if you forget them then you'll have
+31:06
+to go to forget your my password and you know recover your password and things
+31:09
+like that. But the idea is you can then click on sign in. Once you click on sign
+31:14
+in, what will happen is you will see the same interface as every other entity uh
+31:20
+which you see online, right? You will see workflows, credentials and so on.
+31:24
+Over here if you see uh in the menu you will also see things like uh overview,
+31:30
+chat, templates, insights and everything. So you see there are
+31:33
+templates available as well. All right. Uh the one thing which you need to take
+31:38
+care over here is basically you need to click on settings go to usage and plan.
+31:44
+All right what happens is the first time you run actually install this you will
+31:50
+have to activate this. All right how do you activate this? If you go to usage
+31:54
+and plan in case so you know ideally you should have a popup saying that you know
+31:59
+activate any you'll have to enter an email id enter the same email id which
+32:03
+you used to create your account and then click uh get activation key that
+32:09
+activation key will be emailed to you on your email id copy that activation key
+32:15
+and then click enter activation key paste it over here and click activate
+32:20
+again this is something which you only need to do once All right, you don't
+32:24
+need to do again and again. Once you've done this, what happens is your N10 is
+32:28
+set up and up and running. All right, which mean that you installed your uh
+32:34
+installed anything. I hope that wasn't very complex to do. All right, this was
+32:39
+pretty simple, right? Uh so the idea is once you have this uh you can do
+32:45
+everything exactly as you can in the online version. There is absolutely no
+32:50
+difference between this version and the online version in terms of capability.
+32:55
+All right. Uh there is differences in terms of feature but there is zero
+33:00
+difference in terms of capabilities. This means that you know you can use
+33:04
+every single node including let's say AI agent nodes. All right. You can use uh
+33:10
+everything which you would in the online version. So this is it. This is how easy
+33:16
+it is. And once you do this, if you see, all right, uh go here and click on usage
+33:22
+and plan. And you will see over here that I have unlimited workflows
+33:29
+available. If you know uh let me quickly do that.
+33:40
+Yeah, if you go to any 10 online plans and pricing, you see that for €20, you
+33:46
+get €2.5,000 workflow executions, right? Which means that you will only be able
+33:52
+to execute 2.5, 2500 workflows a month. All right, but
+33:58
+with the local version, how many do we get? All right. Uh so if you go to
+34:05
+settings all right and go to use it in plan sorry
+34:10
+this is not the version this is how many do we get we get unlimited workflows all
+34:16
+right which means that over here in the online version
+34:21
+what happens is you get 10k execution for 50 right but if you we do this in
+34:28
+the uh offline version we get unlimited workers That is the power of any. And if
+34:35
+you see all right uh let me quickly show you my actual uh any all right if you
+34:43
+see how many workflows have I run in the last month. I have run 21,000 workflows
+34:48
+in the last bonkers right I would have to pay hundreds of dollars to run these
+34:53
+many workflows if I was using the online version. All right. uh and uh that is
+35:00
+not viable at all when you know you start building production grade systems
+35:04
+and I do that for a living. All right, I build production grade systems for a
+35:08
+living. You can't actually do that with the online version. Okay, it gets
+35:12
+expensive extremely fast. So the idea is uh please actually you know follow along
+35:19
+uh understand that the steps are pretty simple. You just need to, you know, it
+35:23
+might take you a little while uh to get there, but the effort is absolutely
+35:28
+worth it. I hope all of you guys actually install any 10 locally. Uh, of
+35:33
+course, if you guys have questions, please feel free to reach out to me. I
+35:37
+would be very happy to actually help out. So, just to do a quick recap, what
+35:42
+did we do? Uh, you know, we actually went through the presentation which
+35:45
+helped you decide, you know, whether the local version is actually viable for
+35:48
+you. But more than that, what did we do? We actually downloaded Docker Desktop.
+35:53
+All right. We went here, selected the right version and downloaded Docker
+35:57
+Desktop. We then started Docker Desktop. All right. Over here, we first went to
+36:02
+something called Docker Hub. On the left here, we searched for NAN.io/N.
+36:12
+We This is the first one. We went here and clicked on pull. Okay. Once this was
+36:18
+downloaded, it started showing up in this place called images. Once we have
+36:22
+this download, what we did, what did we do? We created a volume called NA10
+36:28
+data. What does this volume do? This NA10 data saves your uh this actually
+36:35
+lets you save your workflows and your settings on your computer. And also what
+36:40
+happens is even if you delete NAN or if you delete let's say uh a container and
+36:46
+you restart and you create a new container your data is safe but if you
+36:51
+delete a container and uh if you delete a container uh and try to restart a new
+36:57
+container if you don't have a volume to store your data what would happen is it
+37:03
+would basically start from scratch. all of your created workflows and configured
+37:08
+settings would just go away which is why creating a volume is essential. Once we
+37:13
+have both of these, what we did we do? We clicked on the play button inside of
+37:18
+images and in optional settings, we actually went into our uh n any docker
+37:26
+installation settings uh and we scrolled down and we came to this place where all
+37:33
+the optional settings are listed over here and this gives you everything which
+37:37
+you need to do to run edit. All right. So over here what is the name? The name
+37:43
+is Nit which you'll put over here. Then in port you'll put 5678. So in ports
+37:48
+you'll put 5678. In volumes you'll put any 10 data and
+37:53
+you will copy this exactly as it is and paste it there. All right. And then
+37:58
+we'll we'll configure these environment variables. Okay. 1 2 3 four. There are
+38:03
+four environment variables to configure at the very least. There can be more
+38:07
+depending on how you use any but these four are essential. All right. in time
+38:12
+zone. Uh you just click on this link called your time zone. It'll open up
+38:17
+Wikipedia. Select your time zone over here and paste it over there. Why is
+38:22
+this important? Because this lets n know what time is it uh where you're running
+38:28
+NA. Okay, without this what will happen is this will default to US time. So all
+38:33
+of your workflows will default to US time and that is not something which is
+38:36
+extremely nice, right? So for example uh if you actually ever configured Jerry in
+38:43
+class uh what happens is over there if you inside of any if you use something
+38:50
+called date and time what would happen is it would pick up the US date and time
+38:55
+if you don't actually add the time zone but if you added the time zone properly
+39:00
+what would happen is it would pick up your local time and that is what you
+39:04
+want which is why we configure this setting. All right. Uh so ensure that
+39:10
+we've configured all of these settings properly and then click on uh inside of
+39:16
+docker desktop click on run. The first time you run this it will take a while
+39:20
+to start. All right. But you will start seeing n10 inside of something called
+39:26
+containers. All right. And if you see over here you will actually see that uh
+39:32
+all the details are available over here. And then if you go to localhost
+39:39
+uh so oh okay so if you go to localhost colon your port number 5678 your n10
+39:47
+will start if I go to this I had put the port 4567 right which is why it says 45
+39:52
+67 all right but otherwise it is 5678 and you sign in and all of your
+39:59
+workflows will be visible so uh a few things to remember one is ensure sure
+40:05
+that either you save your login and password or you remember your login and
+40:09
+password because without that uh recovering this is a very complex
+40:14
+process. It can be recovered but recovering it can be very complex. You
+40:18
+don't want that to happen. Okay. And uh you know what would happen is you would
+40:24
+need to delete your account and read your account. Your workflows will be
+40:29
+there but you know all your settings will be lost. We don't want that to
+40:32
+happen which means that please save your username and password. So that is it. Uh
+40:37
+I hope this has been extremely useful and I hope you guys will actually go
+40:42
+ahead and install Niten locally. In case of any difficulties uh you know uh
+40:47
+please feel free to reach out to me but other than that uh things should be
+40:52
+extremely clear and I have given you extremely simple step-by-step
+40:56
+instructions on how to do this yourself. Thank you very much for actually
+41:00
+following along today.

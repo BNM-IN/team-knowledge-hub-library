@@ -1,0 +1,867 @@
+Cameron Sullivan Outskill(Co-host), Screen sharing: Hello, hello, hello.
+Speaker 2:  Hello, everyone.
+Cameron Sullivan Outskill:  How are we all doing?
+Cameron Sullivan Outskill:  Can everyone hear me loud and clear? See me?
+Cameron Sullivan Outskill:  What a wonderful session. Um, lots of information, and it is super, super useful: combination understanding how to build up front ends, and then also connected back-end automations as well.
+Cameron Sullivan Outskill:  Just a quick question: how many of you have met me before on the Vibe coding session?
+Cameron Sullivan Outskill:  Okay, it looks like some of us have, some of us haven't. And my dog, yes, he met my dog too.
+Cameron Sullivan Outskill:  Awesome. Okay, great to see you all.
+Cameron Sullivan Outskill:  So, first things first, um, what I want to do is just go ahead and share my screen.
+Cameron Sullivan Outskill:  One second.
+Cameron Sullivan Outskill:  Come on, work with me, Zoom.
+Cameron Sullivan Outskill:  Share. Here we go.
+Cameron Sullivan Outskill:  All right, can everyone see my screen?
+Cameron Sullivan Outskill:  Awesome. So, first things first, um, everyone make sure that you have the workbook open.
+Cameron Sullivan Outskill:  That's going to be pretty important, um, because throughout the workbook we're going to obviously follow it very step-by-step. So I'm going to paste the link for everyone here in the chat.
+Cameron Sullivan Outskill:  Please, everyone, do confirm when you do have it open. If you know me, then you know I like to take things very, uh, on pace with everyone to make sure that the most of us can actually move along with what we need to move along with.
+Cameron Sullivan Outskill:  Uh, but if at any point, you know, uh, you are someone that likes to move fast, I appreciate your patience, and, uh, props to you as well. So, first things first.
+Cameron Sullivan Outskill:  All right, everyone's got it open? Awesome.
+Cameron Sullivan Outskill:  Now, how many of you did the customer support triage yesterday in NAN?
+Cameron Sullivan Outskill:  Awesome.
+Cameron Sullivan Outskill:  Awesome, awesome, awesome. Okay, so sounds good.
+Cameron Sullivan Outskill:  Does everyone have Lovable in NAN open?
+Speaker 2:  Luk.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Please go ahead and make sure you got Lovable open. Again, you can do this on a free account as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Uh, and then NAN, obviously have your NAN workspace open. Everyone confirm to me, right in the chat, NAN, Lovable, and workbook if you have it open.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to send it on my side too. I'm being a little bit annoying today, but I want to make sure we're on launch on launch pace.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sweet.
+Speaker 2:  Sweet. Customer name, email, feedback summary.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, so.
+Speaker 2:  So.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Looks like we're most of us good to go. So the first thing we want to do is jump into NAN. And I'm going to pretend that we have not used the customer support, uh, triage bot yet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to create a new workflow. All right, and if you've done the customer support bot and you already have it open in your workflow, that's great.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You can just leave that as is. We're going to do something, um, I'm going to do it in a new workflow and pretend that I haven't done it yet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So, first thing I'm going to do, come to the workbook. We want to click on this link that says customer support triage bot.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We can go ahead and then download this file. It's a JSON file.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Um, and then once you download that file, you can basically click the three dots, hit imports from file, and then you can select the file that we just downloaded. So, uh, again, for those of you that did not do yesterday's exercise, you're going to come into NAN, you're going to open up a new workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're then going to, uh, make sure you have the customer support triage downloaded. I'm going to send this link in the file in case you need it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? And in the chat, excuse me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you have it downloaded, go ahead and, um, come back into NAN, click these three dots, click imports from file, and then select customer support triage bot.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Chris, you just want to go ahead and download. So to download, you open up the link and you click this download button right here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, everyone confirm to me when you got this open on your workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, I'll do it one more time. Phil, it looks like you want it a little bit slower.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to do it a little bit slower for Phil. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  First thing you're going to do inside of NAN, you're going to hit create workflow at the top. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you're going to click the three dots right up here. Then you're going to come down to import, and then import from file.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then all you have to do is select the file. All right, does everyone see that?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Phil, all good?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I got a headache today, guys. I got to wear my glasses.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Someone told me I look like Elton John in these glasses.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, awesome. So let me just jump back to the workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  These are my blue light glasses, but I'm wearing them in the middle of the day instead of at night tonight. So, first thing we need to do is go ahead and, and if any at any point you would rather just go ahead and watch me do this, feel free to do that as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Because you do have the recorded session, um, that you can play back through where Robert completed this exact process. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So, um, here we are. Here is our workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's go ahead and move on in the workbook. Next thing we need is a Google Sheets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Let me know, do you guys have the Google Sheet from yesterday?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  No? Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to make it easy for you. All right, rather than wait for everyone to go ahead and create the Google Sheet with the right columns, I'm going to share this Google Sheet with you in the chat, and all you need to do is make a copy of it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? So I'm going to share this Google, Google Sheet in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Access the Google Sheet, hit file in Google Sheets, and then hit make a copy. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you make a copy, um, title it whatever you want, hit make a copy, and then you're going to have this ready to go. Make sure it's connected to whatever Google account you're going to be using in NAN.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. I'm going to wait a few more minutes for everyone here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. I'm going to send I'm going to do this one more time.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. I'm going to share the link one more time.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, thank you. Uh, I appreciate everyone's patience who is kind of moving a little bit faster and, and who is caught up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I just want to make sure that I'm taking care of everyone. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So go ahead. Um, here's that Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You, you, you open up the Google Sheet and you hit file, make a copy, and you're good to go. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you make a copy, you'll be ready to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Beatrice has done workflow file link.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Here you go, my friends. This is for you, Diwakar.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Struggling to make a copy. Why are you struggling to make a copy?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  File, make a copy. Should be good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You guys are able to make a copy, right? All right, don't move ahead.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If, if you're struggling with steps ahead, like, uh, pratique, anyone using the API key, just wait, wait till we get there. Wait till we get there.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What do you do with the JSON file? You use it to, to have this workflow open.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you have this workflow, great. If you don't, then you open up the, the JSON in the NAN workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Havovi, what are you which what link are you referring to? Do you need the link for the spreadsheet or the JSON link?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Google Sheet. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, today's going to be a long one. I appreciate everyone's patience.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm just going to let you know that today. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  There's a lot of steps to this workbook. Um, so to keep everyone on track, we're going to aim for about 80 to 90 percent of people to be on track.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And I do appreciate everyone's patience. At least you can look at me looking like Elton John today.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Asad, after opening up the JSON, importing the JSON, all you need to do is copy the Google Sheet link that I put into the Zoom, and then you get hit file, and then you click make a copy, call it whatever you want, and hit make a copy.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then boom, now you have the Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We have Shaqual in India sitting with Elton John. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. Okay, someone needs the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to send the workbook. Also, don't be don't feel afraid.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Um, don't be afraid to help your fellow classmates in the chat as well. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Are we good to go to move on to the next step?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We have our NAN workflow open, and then we have our Google Sheet. Yes?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yes. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. So next up, we're going to step three, confirm your credentials.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's go into the NAN workflow. First thing we need to do is OpenAI chat model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to click on this and confirm the API key credential is, is added, and the model equals GPT-4.1 mini. So what I'm going to do is I'm going to copy the API key at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, we're going to go back down to step three. We're going to go into OpenAI chat model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you have your credential, that's great. Or you can use NAN free OpenAI credits.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Or if you want to create a new credential, you hit create new credential, you paste the API key that Outskill gave us. For some reason, one of my breakout rooms, it's like so bad with allowing me to copy and paste.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's so weird. Okay, there we go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We can leave all of this as is, and we can hit save. I'm going to call this Outskill API key expires September 22nd.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then hit save.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Couldn't connect with these settings. Hold on one second.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Oh, I copied the, uh, oops, party foul. Reset.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I copied even the API key part. Let me try to save it now.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Credential saved.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I think this should be good now. Let me see.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Couldn't connect with these settings. More details.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Unauthorized. Just one moment, everyone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I think what's happening is Zoom is messing up my copy and paste. Let me just make sure I have.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yeah, it's Zoom messing up my copy and paste. That's what's happening.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, should be good now. Nope.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Come on. Let me copy.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me paste.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, there we go. Done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now we're good. It was on my end.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It was because Zoom, for some reason, when I'm in breakout rooms, it likes to sabotage me and not allow me to copy and paste anything. So, um, let me know when everyone has a credential.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you'd rather skip this step, you should be able to use the NAN free OpenAI API credits. Um, but we want to select a model, and that's going to be GPT-4.1 mini.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  GPT-4.1 mini.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And again, let me repeat this step for everyone. We need to open this node here in NAN, the OpenAI credential.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to open this node. Okay?
+Speaker 2:  I think in more detail.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, when you have a problem, please describe it in more detail. Remember that I'm not seeing what's on your screen. So if something's not working for you, please make sure you give me a little more detail as to what specifically isn't working for you.
+Speaker 2:  All right, so.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, so let me, let me ask everyone a question.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Does everyone have this setting that says NAN free OpenAI API credits?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Do you guys have that? No, you don't have that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, that's fine.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's fine. No worries.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, so what I'm going to do is just paste. You guys are confirm to me, you guys are saying you don't have the API key at the top of the workbook?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You should. Go back to the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You should have the API key right here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Norman, you should have it at the top of the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to paste it in the chat for you, Norman, but I don't think Zoom allows you to copy and paste.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, open up the workbook link that I'm setting sending you. All right, open up the workbook link that I'm sending you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Refresh the document. Open up the link that I'm specifically sending you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You have to use the online version of the workbook. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone make sure you open the updated workbook, which is the link I'm sending you in the chat. Oops.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Zoom keeps messing up my copy-paste. Come on, work with me, Zoom.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, we're using GPT-4.1 mini copy.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're very welcome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Melvin is lightning fast. Great job, Melvin.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to put the feedback link for you. The reflection link, the Outskill team will get over to you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're in breakout room three.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, so we all good? We all have the API key now?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're using GPT-4.1 mini. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Ready to move on? I have everyone's permission to move on?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Norman's got it. Everyone, hooray.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let's go. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let's move on. Next thing we need to do is jump into Google Sheets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? And we just need to change, basically, and make sure that we're connected to the right Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Bilal, we will get to that when we get there.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, so first things first, what we can do is jump into Google Sheets. And you know what I'm going to do?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Inside of my Google Sheet, I'm going to give it a special name. I'm going to call it special.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Or I can call it something better. Probably like, um, demo.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to call it Demo Customer Feedback Tracker. That way the name is unique and I just need to look for the spreadsheet with demo.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So I'm going to go into excuse me for switching around all the tabs, but we're going to go into the Google Sheets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, everyone confirm to me once you're in the Google Sheets node and it looks something like this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yeah? Okay, cool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Next up, what we want to do is click on here where it says documents, where it says document from list. All right, click the button.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And what we need to search for is demo. All right, demo.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Or whatever you named your Google Sheet. Some of you have it as the same name as, uh, Customer Feedback Tracker or Copy of Customer Feedback Tracker.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So I'm just going to select what I named it, which is demo.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then from list, you're just going to leave it as it is, sheet one. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Is that clear for everyone? So you're going to select whatever the title is of the spreadsheet that you copied from me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Perfect. Perfect, perfect, perfect.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, cool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So next up, next up, let's go ahead and move forward to the next step. Everything else should be fine.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you use the, um, JSON that was attached at the top of the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What is the error that your sheet has, Asad? Are you connected?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You want to make sure that you're at least connected to the right, uh, Google connection. If you're not, you have to hit the edit arrow here, and you have to just, uh, switch account or reconnect or create a new credential.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, let me just send the link for the sheet again for you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure that you guys are authorized to access. So whatever email you copied the Google Sheet on, you're going to want to basically come into the Google Sheets node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, you're going to click the dropdown, hit create new credential. Then you're going to hit sign in with Google.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you're going to click whatever email you copied the Google Sheet to. Click continue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And now you have the proper credential. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you should be connected, and you should be good to go.
+Speaker 2:  Probably.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Does that fix your problem, Paki?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, you can't, you can't copy and paste my Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? You can't copy and paste my Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're going to have to create a copy of your own so that you get access.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then once you connect, you're going to have to switch all of these on. Click all the little AI buttons.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Does that sound good, everyone?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, awesome. If you don't see your Google Sheet pop up in the list, it's because you need to connect your Google account at the top here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? And you need to make sure you make a copy of it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, let's move forward. Again, if you're falling behind, I want to make sure that we're able to get through the exercise.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Um, and if we have time, we'll go back through things. But again, you have this workshop, this, uh, this workbook at your at your fingertips, and you also have the recording of the session.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So next thing we're going to do is make sure we're connected to the Gmail tool. All right, we want to be connected properly to the Gmail tool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And so in order to do that, we want to ensure that we have a Google email connected.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. All right, does everyone have their email connected in the Gmail node?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yes?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, then we should be good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, everyone should have their email connected, and you have automatically everything filled out.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Bilal, we will get to the memory section in a moment.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, we're ready to move on to the next step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, cool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now we're going to go to the triage prompt.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, for everyone, um, that's moving ahead, do you mind if I just loop back to the Google Sheets step? It looks like there's a few people that are stuck on that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Um, so I'll just go back through that one more time. Is that all right with everyone that's kind of moving ahead?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Appreciate your patience.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, so first thing first. Everyone that's stuck on the Google Sheets, I need you to do it with me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, I need you to do it with me. So I'm sending you a Google Sheets link in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? I'm sending you a Google Sheets link in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If Zoom allowed me to send it. There we go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, once you have that Google link sheet, you need to make sure whatever email that you're signed into all right, you can see here's my email, cameron@techifyai.com.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This is the email that I have signed into the Google Sheet. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to say file in the Google Sheet. Follow along with me here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then make a copy. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to call it Copy of Demo Customer Feedback Tracker.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And now look, I have the Google Sheet as a copy, and I'm logged into my email. Then I'm going to log in with the Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Is that clear for everyone? That's on the Google Sheet part.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Are you following with me so far? Everyone that was stuck on this part, Geeta, uh, Paki, and anyone else?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Now, once you have this, what we're going to do, first of all, remember what you named this Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Name it something special if it makes it easier. We're going to go back into N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? We're going to click into the N8N node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And remember, the Google Sheet that I have this account on is cameron@techifyai.com. That's my email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, so what I'm going to do is go back into Google Sheets. I'm going to select create a new credential.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, I'm going to name it something special, like cameron@techifyai.com. September 22nd, Google connection.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? And then I'm going to hit sign in with Google.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, very important, I need to select the email that I have the Google Sheet on. Remember, I have this Google Sheet on cameron@techifyai.com.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I need to select the email that I'm that I have the Google Sheet on. Once I select it, I can hit continue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Now, once you do that, if we go back here, you can see now that we have a fresh slate, clean slate.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What we need to do is where it says document from list, we need to select choose. And we can search up the name of our Google Sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, so mine is called Copy of Demo Customer Feedback Tracker. So I'm just going to look it up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Copy of.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then here we go. Copy of Demo Customer Feedback Tracker.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Here it is. So I'm going to select that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone following with me so far that was not able to get the Google Sheet thing? Geeta, this is probably why you weren't able to see it, because you weren't authenticated with the right email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone with me?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That was behind on this? Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I appreciate everyone's patience, by the way. Um, I know this isn't the easy like, everyone's got different systems, different Google accounts, so I know this part can be a little tricky.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I do appreciate everyone's patience.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Next up, we want to make sure that we just, from the list, select sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  There should only be one option, and that should be sheet. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once that's good, you're going to see all of our columns load up here. Bilal, we will get to the memory in a moment, my friend.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All of the columns are here, and we just want to go all the way down the line. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We just want to go all the way down the line. And just click the button for every single column.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? And then we're done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paki, Geeta, anyone else that was stuck on the Google Sheets part? Are we good to go now?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If it's if it's causing an, uh, an issue, Nayasa, it's not allowing you to do from list, and it's only allowing you to do from URL. All you have to do is just copy the URL of your spreadsheet and then just paste it in.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And you should be good to go. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, looks like we're all good to go. Kareem, all you have to do for the Gmail step is make sure you have a Gmail connection.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to hit create new credential. I'm going to call it my email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then the date. I'm going to hit sign in with Google.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Same thing. Select my email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hit continue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? And then we're good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paki, if it's static for you and there's no dropdown, that's fine. If it's only by URL, okay, select by URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? And paste the URL of your spreadsheet, and you'll be good to go.
+Speaker 2:  The.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. I'm going to move on. Next up, we need to change and adjust the prompt for the AI system.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone ready to go? Thank you for your patience.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're going to move on. Anyone who's still following behind, as much as I would love to, uh, be able to sit with you and make sure you got it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Um, we do have a lot of people in here, and I want to make sure we're all able to complete the workbook. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Good to go? So, next thing that we need to do is go to the triage prompt, and we need to adjust the system message.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It says one thing we need to change. Right now, it basically says that we there's an email that we have to swap in our own own email address.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So what we're going to do is go back into N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone click this prompt that says AI agents. All right, click this prompt that says AI agents.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? And then what we're going to do is open up the prompt by clicking this little button here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, you can click this little button to open it up. Let me know, everyone, when you see the prompt and you have it opened up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Scott says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sandy says yes. Paki says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Rizwan says yes. Norman says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome, awesome, awesome. Okay, cool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So next thing we're going to do is, inside of this prompt, you can see right here at the bottom, there's an email here that says qos@harshith.com. All right, so we need to change this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to delete this and put our personal email that you want to get notified. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So right now it says qos@harshith.com. I'm just going to replace it with cameron@techifyai.com.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's because that's my email. Everyone let me know when you've taken this at the prompt at the bottom, when you've deleted the other email and added your own email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Scott says yes. Meet says done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Michael says replaced. Tavovi says done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Perfect, perfect. Kalyani says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Kareem says yes. Norman says done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sreeja, you should have the prompt if you if you loaded up the the JSON workflow. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Nirmala says done. Hardip says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Chris says yes. Geeta says done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Awesome, awesome, awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So now we've checked off that step. What we want to do next is then start to travel into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, we want to start to travel into Lovable. Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Beatrice, yes, you should be able to have, uh, a different sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Have patience, please, Bilal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We will get to memory. All right, so replace with any email address you want, because it's just going to be used for testing.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What's happening is, whatever email address that we put in here is going to be the email that, if someone complains about something and it's urgent, that's going to send us an email to escalate it to a human for us. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Now.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, once you have it open, we're going to go into the workbook, and we're under step five. So we want to copy this prompt here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's under step five. Hit copy the prompt.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Bring it back into Lovable, and then paste it. See?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Look, look how Zoom messes me up with the copy and pasting. For some reason it doesn't let me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's so weird. Okay, copy the prompt and then paste it in the Lovable chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sound good? Everyone let me know when you've got the the prompt copied and then paste it inside of Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Because this prompt, what it's going to do is it's going to build out the form.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's going to build out that little form, as you saw in the session, that we're going to use to integrate with the N8N automation that can log all of the complaints in our Google Sheets and escalate to a human ourselves if needed. All right, so it sounds like we're good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm just going to go ahead. Once you have the prompt uploaded, go ahead and send it through.
+Speaker 2:  Actually, it's done. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, now it's going to start building. It's going to start building. Okay?
+Speaker 2:  Work.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Kashish is done. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. Should be building it out in just a second.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Is this a glitch? Let me see.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Build this now.
+Speaker 2:  Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Place the chat. Great work. If you moved fast, you want to right-click the node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. So let's move forward to the next step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? What we want to do is go back into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go back into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's building everything out for us. I mean, not go back into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We want to go back into N8N. Everyone confirm to me just so I have peace of mind that, uh, Lovable is in here and it's and it's, uh, waiting for the user to submit the webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? We're going to get there in a second.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, everyone's just going to be doing something slightly different. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, so in the meantime, we're going to follow the workbook so we can get the webhook and everything like that. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So first things first, we want to go to step six, which is replace the chat trigger with a webhook. So we're on step six in the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Inside of our workflow, we want to right-click the node and then go and click replace. And we want to replace it with a webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, so let's go back into our workflow. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're going to click right-click this first chat, this first node, which is when a chat message receives. So we want to click this, right-click the the node, and here is the button that says replace.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, does everyone see that? Let me know when you see replace.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click right-click the node. All right, the first node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Right-click it and then click replace.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then when you click replace, there's going to be a little pop-up on the right-hand side.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, again, the node that we're selecting, if if you want replace to work, it has to be this first node. When a chat message is received, right-click and click replace.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, once you click replace, we're going to type in webhook. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And we're going to select the top option, which is a webhook starts the workflow when a webhook is called. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And so now the first node is a webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Asad, if the replace button isn't working, you can just hit the add button. All right, you just hit the add button and then you look for webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, you can select that. And once you have it, you can go ahead and just connect it at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, you can just connect it there.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Now, once we have the webhook, this is what it looks like.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me know, everyone, when you've gotten the first node to be a webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For anyone running into errors, if you ran ahead, just please come back to where I am and we'll do it together to make sure we don't run into errors.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. So let's look at the next step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to configure the webhook. All right, so inside of the webhook, we need to change a couple things.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  First things first, we need to set the HTTP method to post. So inside, there's an HTTP method.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You want to select this and click post. All right, so let's open it up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  HTTP method. Want to select this dropdown and select post.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone let me know. Type post in the chat when you got it set to post.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Awesome, awesome, awesome, awesome, awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sweet. Okay, let's check out what else we have to do.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The next thing we have to do is set response to using response webhook node. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, here's post. Again, here's what we're doing.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We have the webhook. We're going to click in here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure the HTTP method is set to post. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then we need to change response to using response to webhook node. So right down here is response.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to change this to using response to webhook node. Everyone know everyone type respond in the chat when you've selected respond and changed it to using response to webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Respond. Perfect, perfect, perfect.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, thank you. Thank you, thank you, thank you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, so next up, we want to copy the production URL. Okay, we need to copy the production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's go ahead and copy the production URL. So to do that, we're inside of our webhook node, right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And up here at the top, we have webhook URLs. Switch over to production.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, not test. It's not going to work if you use test.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Switch over to production. And we're going to click post to copy it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, we're going to copy this URL. Everyone let me know when you have the post URL copied.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Write copied in the chat. And again, make sure it's post, not test.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, you need to make sure that production URL is highlighted white, not the test URL. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Sweet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Copy this URL. Come back into the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I mean, into Lovable, excuse me. Right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Because after we copy the URL or actually, sorry, I went a little bit ahead. So just make sure you have the URL copied.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then what we want to do is move to step nine, which is to add a response to webhook node. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to add a response to webhook node. So let's go into the workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then after the AI agent, there's a little bit of a plus button here. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So click this plus button and look up response to webhook node. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone know let me know when you got respond to webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. Okay, so we have this done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let's move on to the next step. We have the response to webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let's move forward and take a look.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? We need to configure this response to webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to change it and set the respond with to all incoming items. So let's go ahead and do that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's open up response to webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And here we have the respond with setting. So we want to change this to all incoming items right here at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, everyone let me know when you got that done. All right, we're in the respond to webhook node and we have respond with all incoming items.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Done. Perfect.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Sweet, sweet, sweet, sweet, sweet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, we're getting close. We're getting very close, everyone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, next up, that URL that we had copied earlier. All right, again, click webhook production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Copy this. Copy the production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? We can go back into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And right at the bottom here where it says to add your N8N webhook URL, we can just go ahead and paste it. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And here's my URL. Everyone let me know when you've gotten your production URL and then you have it pasted where it says add secret.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Lauren says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Nirmala says yes. Saanvi says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, again, Beatrice, one more time, copy the production URL over here in the node. All right, so we're going to go into the first node, which is webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click production here and then copy this URL. And we're going to go back into Lovable and then paste it right here where it says add secret.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? After we paste it, we're going to hit submit.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, after we paste it, we're going to hit submit.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, if you don't have the option of adding it, here's method number two. We need to go into the settings.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So go and click settings.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  One sec. Where is the settings?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  At the top. Okay, we're going to click settings at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This little more button. Okay, up here there's this little stack.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So click that stack. Click more.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then we want to go into cloud. And then we can click secrets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This is if you didn't have the option. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You could click add secret. You don't need to you can just ignore the connected Google Docs.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? You can hit add secret, paste the name, and then paste the URL and you're good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? That's if it didn't show you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Does that sound good for everyone? Have we gotten the secret added?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me know in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you, Lauren. Thank you, Beatrice.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Lenka, Rizwan, Scott, Manish, Chris, Asad. Perfect.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Perfect, perfect, perfect. Okay, next up, what we want to do is just, you know, to make this easier for everyone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Make this easier for everyone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Come into the N8N workflow. All right, come into the N8N workflow and then click publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Just click publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, it's going to make it easier. Technically, we should do this with testing, but to make it easier for everyone today, um, we can just click publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Manish, in order to understand the name of the secret, I'm going to text it to you in in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? It should be called N8N webhook URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. Bilal, we're about to move on to the memory section.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Do not worry. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, after we have it, okay, where's the publish button? It's in the top right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Top right of N8N. Click publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Let me know when you've published it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Write publish in the chat when you've published it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, Nazeer. Nazeer, if you're not if you don't have the option to add the secret, you need to follow alternative step under step 10 in the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? All you have to do is click this button up here that looks like a little stack of cards.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You click that, you go to cloud, then you go to secrets, and then you can add a secret by giving the name N8N webhook URL, and then you can paste in the value. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's all you have to do.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, once you have it published, what we're going to do is just send the test. So I'm going to put my name.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to put my email and say, "Just testing out this workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I need help." All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And we hit submit. And you can say, "We couldn't send your message.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Please try again." If you run into an error, that is normal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? That is completely normal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? So what we want to do is jump back into N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And hold on, everyone. I'm just going to send this system prompt for RAM because he's having trouble with it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's not letting me. Sorry.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sorry, RAM. It's not letting me copy and paste the whole thing.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I think it's too long. You can just go into the workbook and and get the system prompt for him.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You just have to upload the JSON. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you're running into an error, don't worry. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Follow me. As you can see, I tried testing it out.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It says, "We couldn't send your message." If you have an error, that is normal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? That is normal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So what we need to do is jump back into N8N. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Jump back into N8N. And as we can see, we need to click the executions button here at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So select executions.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And now we should have this execution here. And as we can see, the webhook has a green check mark.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It worked, but there's an error with the simple memory. All right, let me know if you guys have the error in simple memory.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If your execution is blank, it's because you did not send a test here inside of Lovable. Kareem, yes, you should publish in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So once you have this execution and we can see that the data correctly came into the workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, even if there's an error in Lovable, that's normal. We need to go to N8N and check the executions tab.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, the executions tab. And we'll see a webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, we'll see this execution. The webhook was successful, but there was an error in simple memory.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Now, go back to the editor in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go back to the editor. All right, go back to the editor.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then what we're going to do is follow the workbook. All right, follow the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? So here is step 11 in the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So what we need to do, as you can see, there is an error and it is expected. So if you ran into an error, that is completely normal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So what we need to do is we need to make an adjustment inside of the simple memory node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? We need to make an adjustment inside of the simple memory node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  First thing we need to do is we need to change the session ID to define below. So let's do that first.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So we're in the workflow. Back in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're going to go back into simple memory. All right, we're going to go back into simple memory.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And we're going to change the session ID into define below. All right, we're going to change the session ID into define below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Let me know when you got that changed to define below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Lauren says yes. Nirmala says yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Scott says yes. Kalyani, excuse me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm I'm bad at names, by the way. Please forgive me if I mispronounce your name.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Asad, Christopher, Havovi. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Marghesi, perfect. Awesome, awesome, awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Cool. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Guys, if you're not able to change it, it's because you're still in executions. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You don't want to you don't want to still be in executions. You want to go to the editor.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Go to the editor.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you can open up the simple memory node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So change the session ID to define below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then what we want to do is just call it triage session. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you can copy this triage session or you can just write it out. Right here for the key, we need to change it to triage-session.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? This is just allowing the memory to have its own, uh, state from the webhook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Because before, remember, it used to be a chat. Now it's not.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So the session ID should be defined below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now it is called triage session.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Now, again, if N8N if Lovable is not correctly submitting, you need to make sure that your workflow is published, number one, in in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And you also need to make sure that you added the secret for the production URL. Not for the test URL, the production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? The reason I, uh, went over so so many times that you need to do the production URL, because it won't work if you do the test URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Same thing with publishing. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So again, just to do the memory part one more time, that you want to click in the simple memory, you want to change the session ID to define below. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you want to change the key to triage session.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, ready to move to the next step, everyone?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, so now back inside of N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right, make sure you're in N8N. Go ahead and open up the OpenAI chat model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? I believe, right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's the OpenAI model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Or wait, no. It's the, uh, it's the AI agent model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Excuse me. Sorry, not the OpenAI model node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The AI agent node. Open up the AI agent node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? I think some of you are still trying to jump ahead and you're running into issues.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Please follow along with me. Um, and then the issues will be resolved.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Once you're in the AI agent node, let's take a look in the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And what we have to do is change the source for prompt to define below. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The source for prompt, we have to change it to define below. Okay, let's do that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So right now, inside of the AI agent node, click this node and change it to define below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Again, we're going to click the AI agent node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Kalyani, this is for you. Where it says source for prompt, click it and change it to define below.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Now, once we change it to define below, we need to go to option number one and copy this prompt.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? We need to copy this prompt right here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Lenka, nothing was done in the OpenAI chat. I accidentally opened that one up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You don't need to open that one up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So copy this prompt.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go back into N8N. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then once you've changed it to define below, where it says the prompt for the user message, all you have to do is just paste that in. Oops.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Of course, Zoom is messing up my copy and paste. Zoom tries to sabotage me, I swear.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, there we go. You're going to paste it in and it looks like this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Everyone, let me know when you have it set to define below and you have the correct prompt. Paste it in.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Awesome, awesome, awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay, cool.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Cool, cool, cool. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to I'm going to move forward with this. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We're going to complete the workbook and then I'll do like a small short recap. Um, I think some of you are still caught on the secret settings.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'll show you how to do that later. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I just want to make sure everyone who's following along, we are able to complete the workbook. Okay, let's take a look next.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We need to test and go live. So what we should do is hit publish after we make that change.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Oops. After we make that change, uh, to the prompt in the AI agent step, hit publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? You need to publish it again.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That sets everything that we just did and saves it and sets it live. So write to me publish when you've published it after making the AI agent step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Now, once it's published, the workbook gives us a couple different ways to test.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So the first one is going to be Rohan. So let's test Rohan.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So I'm going to copy his email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to copy Rohan's email. First, I'm going to write his name, Rohan.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to paste his email if Zoom is nice.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, paste his email. Then I'm going to copy his feedback.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? I'm going to paste his feedback here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then I'm going to hit submit.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, it's loading. It's loading.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's loading. It's loading.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's loading. And it says, "Thank you, Rohan.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Your message is on its way to the team." So let me just check.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Did it add it properly? Wait, let me make sure it did not.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me make sure I have it connected to the right Google Sheet here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Penrose, she was in documents. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It should be good. Let me publish this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Try it one more time.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Rohan.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, now it works. I just had it connected to the wrong sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Now, a lot of you are running into issues.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And the reason you're probably running into issues is because you didn't use the correct URL. You probably used the test URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you need to use the production URL. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If it has test in it, if the URL has test, as you can see this one does, webhook test, it's not going to work. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you need to copy the production URL. You can go back into Lovable.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click this little stack here. Go into cloud and then go into secrets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you can edit this URL or you can delete this this N8N webhook URL. Hit delete.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You can remove the secret. Hit add new secret.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So it's going to be N8N_Webhook_URL. And then you have to paste the URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? You want to paste the URL, the production URL, which is right here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Production URL from the webhook node. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So paste it. You have the production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hit save. And then it'll work for you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? And guess what?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You also have to make sure that it's published. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure that it's published as well. And then everything should be good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Everything should be good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me test another use case. We can try Priya.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This should send me an email to make sure it's working. So I'm going to write Priya.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Just one second.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  There we go. Let me copy her email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paste it in. Hit submit.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, if Lovable. So, and I just got an email on my phone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This worked. And as you can see, here we are.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? If the if the date is wrong, that's fine.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We can fix the date in the prompt later. That's not a big deal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  But everything should be working. Now, a lot of you are running into issues because one of two things, most likely.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Number one, you didn't in the secrets, you did not use the production URL. And number two, you didn't publish.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So if you're running into an issue, ensure that you have the secret set up. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You have the settings inside the webhook. You have to make sure the HTTP method inside the webhook is set to post and the respond is set to use respond to webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Nazir or anyone else running into the issue, inside the webhook setting, is the HTTP method set to post. Because a lot of you said it's working correctly.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  A lot of you said it's successful. But you had to get every little step right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you missed any steps along the way, then you're going to run into an issue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So first things first. Okay, we need to make sure that we have the webhook node set up.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For everyone running into an issue, you have the webhook node set up. Follow along with me.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Let me know.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yes, we should be an editor. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure you have the webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, Michael got it working. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome, awesome, awesome. So.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you have the webhook node, you need to make sure that number one, the HTTP method is set to post and the respond is set to using respond to webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Once it's working, you need to publish it in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And Rebecca, yes, you can publish it on Lovable if you want it to to stay live on URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. And Nazir, it looks like you never added the secret.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So this is the next issue. Everyone who does not have the secret properly set up, please make sure you follow along with me right here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So first things first. You need to come into the webhook and come to production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you do that, copy the production URL. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go back into Lovable. We're going to click this more button up here at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click this more button. And you want to go into the secrets tab.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? If you don't see the secrets tab, you're going to have to click cloud first, then go into the secrets tab.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And as you can see here, there's an N8N webhook URL. So if you have one, delete it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If it's not working for you, you're going to want to add a secret again. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Write in N8N webhook URL exactly like this. And then you want to paste the production URL from your first webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? As you can see, here's mine.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hit save. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And make sure that your N8N workflow is published. Now, if it's not adding to your Google Sheet, you probably have the same issue as me where you didn't select the right sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So make sure you're on from list and then select the proper sheet.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? For me, it was copy of demo customer feedback tracker.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Shameem to find the more button in Lovable. It's up here at the top right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Up here at the top right, this little stack of cards.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? For the OpenAI credentials, it's going to be up at the top.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? If you're running into an issue, you're going to have to give me a little bit more context as to what's happening.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And let me show you a little hack for how to do this properly, for how to help you troubleshoot. So what you can do if you're running into an issue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The feedback destination is not configured yet. Bilal, please give me more context.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Are you seeing that message in Lovable? Are you seeing that message in in N8N?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Where are you seeing that error?
+Speaker 2:  Just replacing my camera battery. Just a moment.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Bilal, did you go ahead and add the secrets to the settings? Did you add the secret?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yes, Bilal, it looks like you didn't follow the steps for the simple memory. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you're going to want to go back into the workbook and go to section.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go to section.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  This section right here. Step where is it?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Step 11. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. For everyone that finished, I'm going to put the feedback form.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Please do fill out the feedback. Definitely helps us a lot.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So that is the issue.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, if anyone's running into errors, let me give you a little bit of a hack of what you can do. Open up ChatGPT or Claude.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Come to the workbook. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You can download the workbook or you can print it if it's not allowing you to download. So I'm going to print out the workbook, save it as a PDF, bring it into ChatGPT.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm going to upload it as a file. And then I'm just going to say, "Hey, I'm trying to complete this workbook to link up Lovable to N8N workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I followed the steps, but I'm running into an issue that's giving me an error of 404. Please help me to figure this out step by step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm a non-technical person."
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? So if you're running into an issue, what you can do is you can upload the workbook, go into ChatGPT or Claude, and say, "Hey, please break this down step by step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm running into a specific issue." And then it's going to help.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? So it's saying, "Make sure you copy the production URL, not the test URL."
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Make sure the N8N workflow is actually published and active.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Replace the URL stored inside Lovable. You need to make sure that it's the right production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? So it's going to walk you through step by step.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now, what does this finally look like? All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You'll have a form that you can go ahead and fill out feedback and it's going to open up in the Google Sheet and it's going to send you an email if it's urgent to escalate.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? If you're running into an issue where it's not updating on Google Sheets, go back into the Google Sheets node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure you select just reselect the correct Google Sheet from the list and make sure that it's on append row. Make sure the operation is append row and you have all these different fields to be defined automatically by the model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Once you have that and you make the change, publish it and it should be good.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yes, Bilal. I looked at your screenshot.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You have it set up correctly. Now just publish the workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? You have to publish it again after you make a change, Bilal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Geeta, so now what you need to do is you need to take a screenshot of the error in the executions tab and then send it to OpenAI and it'll tell you what to do. Send it to ChatGPT or Claude or whatever.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. So Manish got it to work.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Havobi got it to work.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Let me know.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Do you guys want to jump into the Slido?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paki to get the customer support workflow, all you have to do is use the workbook. It's it's right here at the top of the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Mark, if you're not if it's not going to email, you probably did not open up the AI agent prompt. And make sure you adjust the email down at the bottom here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? And then also, you need to just reconnect your Google Sheets and make sure that the Google Sheets that you have saved is the same Google account that you have saved here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then you have to make sure that it's the right one, the right Google Sheet attached.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? You guys want to move into Slido?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I know there's some of us that are running into issues. It's just the nature of the time we have today.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  There's there's not one-on-one that I can do with you. So I did give you this framework.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  In order to fix the issue, you can download the workbook, throw it into ChatGPT, and then just tell it to help you work through the problem, whatever the issue is, and it'll help you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you, Lauren. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's jump into Slido. Just going to open it up really quick.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, here we are in Slido. Go ahead and ask me all your questions.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Here is the joining link for Slido as well. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You know how this works. You can scan the QR code on your phone or click the link that I sent in the chat, ask me some questions.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What I will do is answer the question that's at the top and highlight the question as I'm answering it. Once I've sufficiently answered it, I will go ahead and mark it as dismissed and move on from there.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay? After step 10, Sumi, what you want to do is move forward in the workbook and just make sure that you have adjusted the simple memory to look like this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then also, you've adjusted the AI agent prompt to look like this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For some reason, it says the question's closed. One second.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Should be good now. Should be good to go now.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You got the wrong date in the sheet. That is not a problem.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All you have to do is just go into the prompt and you can say, "Hey, this is today's date."
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Still not updating my Google Sheets. I did check the account, etc.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're going to have to do it again. There's there's something that you're not quite doing right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Number one, again, make sure you made a copy of the sheet inside of whichever email that you're using. For me, it's cameron@techifyai.com.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then what you want to do, create a new credential. Log in with your email.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For me, it's cameron@techifyai.com. Then you want to make sure all these settings are exactly the same.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So the resource is set to sheet within documents. The operation is set to append row.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The documents from list is set to whatever you named the sheet so you can look it up here. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You can look it up. For me, it's copy of demo.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Again, you want to make sure that you select the one that you made a copy of, not the one that's preloaded in the actual node. Then you want to select sheet one.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You make sure that you click that. Select sheet one.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Even if it's already reselected, you need to click this again and then reselect it again. Then it should be set to map each column manually.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then all of these different columns should have defined automatically by the model. Then you hit publish again.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then you should be good to go. If you follow all those steps, there's no scenario in which it shouldn't work out.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  How can I change the footer of the mail? This this email was sent automatically with N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  To do that, all you have to go into the Gmail step, hit add option, go to append N8N attribution, and turn that off. All right?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So again, you want to go into the Gmail step, come to the bottom, hit add option, select append N8N attribution, and then turn it off.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So Christopher said that he also had an issue with the Google Sheet thing not working. So he had to follow the the steps that I just did.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You have to create a new credential, follow the host steps from front to back like I just mentioned, and that should fix it. Sometimes N8N is just a little bit annoying and a little bit picky.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  In this session this morning, the response shown on the form thank you had more detail. I didn't see that process in the workbook.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Is there a chance we can get instructions for that? So for that, all you have to do is just go back to the recorded session.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? If you want more detail, you can just ask Lovable to provide more detail as part of the response.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Can you plead plead plead the tell once how to add the production URL manually? Yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So what you'll want to do is go into your Lovable. Okay?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go into Lovable. Click the three dots here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click the three dots. Go to more.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then go to cloud. Then go to secrets.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right? Delete whatever N8N secret that you might have already.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go to add secret. Call it like this: N8N webhook URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Then go back into your N8N workflow. Open up this webhook node.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go into production URL. Copy the production URL.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go back into Lovable. Paste that production URL as the value.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For me, it's not letting me. Paste it as the value.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You can see I have it here. Then hit save.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then it's all good. So that's how you do that that part.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Problem with append sheet. I need some more detail if you want me to help your help you with your your problem, please.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What next can we do with this flow? Any ideas?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Also, simple memory only takes one node trigger. How to get multiple nodes working different memory.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I'm not sure what you actually mean by wanting different memory. You need to give me a little bit more detail for that question.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  But in terms of what next can you do, well, the possibilities are endless. If you have a website that you want to integrate this form into, you can do that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What you could do is you could create an automation where if you have a website and you're trying to get someone to book a call for your service, you can make it so when they fill out their information, they immediately get a text or an email from AI that tells them that confirms the time and also sends them some resources before your call. That's another application as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. What job would Jerry handle?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What job would N8N handle? And what would the backend handle?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So the backend is any part of something that the customer doesn't interact with. So it really depends.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you were at my Vibe coding session, the backend is all of the code and the database and the functions that actually allows the application to work. In terms of Jerry and N8N, it just depends on the application.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Jerry is going to be more of like the all-encompassing agent. You can use it for many different uses.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  N8N is going to be for very specific workflows that do specific things. You got it to work, but you had to use the N8N AI troubleshooter and it changed the simple memory from triage session to webhook item.json.body customer and then it worked.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay, that's awesome. Error in agent.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I need some more details. Error in memory.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Error in memory. All fill okay but not working.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you could send me a screenshot in the chat, that would help me. Pre-read changes before.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hold on. I tried adding Gmail trigger and webhook together.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Was getting error on simple memory like it doesn't take double triggers. Thank you for answering the first part.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You don't want a Gmail trigger. You just want a webhook trigger.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It does not take double triggers. That is correct.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Pre-read changes before the session and during the session. Please don't change it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's for the outskill team. Where to add the date and time part of prompts.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you can add this inside of the AI agent prompts. You can put this inside of the prompt here, inside of the system prompt.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Where are we? Here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Submit button not working after filling production URL. Correct.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Entered and published also. Are you getting any executions in the execution tab?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Because if you are, that's where you'll see if you're running into an error. If we're doing via ourself with OpenAI, then why are you why are you here?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I appreciate the the directness. We're here to walk you through.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Unfortunately, it's just the reality that I can't give one-on-one attention to everyone. We only have a limited amount of time here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So ChatGPT is just a way to help you troubleshoot. The goal here, guys, is to teach you the structures, the tools, and the concepts, not to make you dependent on us.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So while we are here to guide you, part of the guidance is giving you the mindset and the ability to troubleshoot even when you don't have someone helping you and holding your hand along every step of the way. And so that's why I give you that ChatGPT troubleshoot because when you go out and you build your own workflow or you build something different and you don't have a mentor to to hold your hand through it, then you're going to want these little tricks and troubleshooting materials to
+Cameron Sullivan Outskill(Co-host), Screen sharing:  actually help you through it. Can you remind me of how to turn off the N8N attributes? Sure.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So all you have to do is go to the Gmail tab.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. You want to go to add option here at the bottom.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Click append N8N attribution and just make sure that it's turned off.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  What happens if something fails or needs a person's approval? So if if something fails, do you mean specifically in the workflow?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If something fails in the workflow, you have to figure out what's happening and what's going wrong. The good news is all you have to do is figure out, first of all, is data being received in the workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  To determine that, all you have to do is go to executions and you can see that the executions are working properly. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The first time we did it, we could see that there was an error in the simple memory node and the workbook gave us instructions for how to fix that so that it was good to go. If something needs a person's approval, I'm not sure what you mean by that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Do you mean within the customer support workflow itself? Please add some more detail and ask the question again.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you for the kind words. Thank you for the kind words.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Animation and Lovable. So unfortunately, today is not about, you know, creating detailed websites and animations.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So we don't have time to go over that completely. But what you should what you can do is you can ask Lovable to help you create animations in any way that you need to.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you're curious more about vibe coding, we did do a dedicated vibe coding session. You can watch the recording where I walk you through the basics of prompting and how to use design and all that stuff as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you for the kind words. WhatsApp is actually very challenging in N8N.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  It's not easy. You would have to either go through a third-party connector or you'd have to create a Facebook Meta app and you'd have to use the Facebook Business API.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And it is not an easy setup. It's a complex setup.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you need to do that, again, I would start small and start working with Claude or ChatGPT to to figure out what it is exactly that you need and have it walk you through step by step because unfortunately, I don't have enough time here to walk you through the whole flow. But generally, you would need to connect to the WhatsApp Business API.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you'd have to convert all your WhatsApp chats to the Business API. And then you could basically get access to your chats to then use API request from the N8N workflow just like we've done in other workflows.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you for the kind words. Kalyani got it to work.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. For Jerry, unfortunately, I am this today's session is not specifically about Jerry.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I was not a part of the Jerry workflows. So that question is going to be better suited to ask inside of the LMS for the team or the mentor that led Jerry or the outskill team to be able to answer that question for you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The secret is the API. Absolutely.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Telegram. Yes.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Telegram is very easy to connect and automate. That's what I use personally.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All you have to do is go into Telegram and it's something called the bot father. It's a little chat and it allows you to create a bot and then you can add that bot to whatever channels that you want to automate and then you can just tell Lovable that here is my API key or here's the secret for the Telegram whatever and then it'll give you instructions for how to integrate the automations within Telegram.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thanks for the ChatGPT and Claude trick. There are issues that N8N and Lovable have for my workflow.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're very welcome. The troubleshooting is very, very important.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Is it safe to upload our website code put on GitHub? It is safe to put it on GitHub.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Make sure when you do put it on GitHub, you leave your GitHub repository to private. Yeah, you guys are asking for my LinkedIn.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me just send the link to my socials.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  There's my Instagram, my LinkedIn, and my LinkedIn.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  My LinkedIn. There we go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sumit, what what step are you stuck on?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Can you use any software via GitHub for for you? You can GitHub is free.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So yeah, you can basically use the code and upload and use GitHub however you want to use it. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So Sumit is stuck on step four. Let's take a look at step four.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So for step four, it's very simple. As you can see here, if you read the workbook, it says all you have to do is replace the email in the AI agent system message.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So let's go ahead and do that. What you want to do is go into the editor.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Go into the AI agent message. Scroll down.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Here we have the system message. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you have to read when you're using the workbook, you have to read very carefully. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  One thing because it's all outlined here. One thing to change.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Open the AI agent system message. So that's what we did.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. We opened the AI agent and we went into the system message.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. We open it up and as we can see in the workbook, it tells us to replace the email with our real email address.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So at the bottom, there is an email here that said kos@harshith.com. You want to delete this email and replace it with your personal email so that all the emails go to you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's all that step four does. Is that clear for you, Sumit?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you can only clone code that is public and accessible. Not not everyone's software is online for you to duplicate and copy.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  That's just part of part of the business world, right? I'm not sure if VibeHabs is because I don't know which software you're talking about specifically.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Not able to complete step three.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Step three. Let's take a look here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Step three is Google Sheets in the OpenAI chat model.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Who here was struggling with step three?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let me know in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Whoever was stuck with step three, step three, let me know in the chat and I'll be able to see what specifically you were stuck with.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Yeah. Anything that's available on GitHub, if it's open source, meaning you have the code, then you can use it as needed.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The problem with API key. So did you copy the API key at the top?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. You want to copy starting at this sk proj.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You don't want to copy the API key part. You just want to copy this part.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Thank you, Geeta, for the kind words. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Once you copy the API key, you're going to go into create a new credential. You're going to paste the API key.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. So you're just going to copy it here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paste the API key. I'm going to call it outskill API key.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hit save. And as we can see, we're all good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Shamim, if you could send a screenshot, that would be awesome. How should we use GitHub to test and update the backend without accidentally breaking a client's live N8N workflows?
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So with GitHub, you don't it it works in stages. So when you're working on developing code, you can basically have different branches of GitHub.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So you can have your main branch, which is your production branch, which is the code that everyone uses, right? That is live.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And then you can have a test branch, all right, or a development branch where you can test it separately, make sure everything works. And then if everything works, you can tell AI to merge that code or to push it live to the main branch.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And that's how you keep everything clean. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Me and my team, I have a team of engineers and we have built a really good AI SaaS application that helps me and my clients generate AI revenue as fast as possible. And we keep it separate.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  We keep the version online that everyone uses, all the clients use. And then we have the version that we test stuff in development, make sure it works.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And when it does work, we put it up. All right.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Someone said, "I'm getting the following error in form input fix. The blank screen error rejected submissions.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Now stay in the form in front of the message. The configured N8N webhook currently returns 404 not found."
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sounds like you're not using the production URL. You want to make sure you're using the production URL and you need to make sure that the URL or the webhook node is set to post.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. Should be a post method here.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Activate the N8N workflow and ensure N8N workbook URLs. Yes, exactly.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. I'm going to go ahead and put the feedback form in the chat for everyone.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I would really appreciate it if you did fill that out. We're in breakout room three.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Huge, huge help for me. I'm always looking for how to improve as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Awesome. Thank you, Bilal.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Great tip, Christopher, as well.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So, Dr. Vasu Devan, it looks like you're not putting the right API key.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're probably copying you're probably copying this part of the API key too. You do not want to do that.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You only want to copy this part when you're putting it in. If you only copy that part, then it'll be good to go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All you have to do is hit retry.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Sumit wants help with step 12.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Let's take a look at step 12.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Step 12 is just testing it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. So step 12 is just literally testing.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All you have to do is go into Lovable, type in some stuff. So I can type in cam cam techifyai.com.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hello, friend. Hit submit.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Here we go.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And you can see here we are.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sumit, please go ahead and take a screenshot of the error you're running into.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  You're welcome, Rebecca.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Dr. Vasu Devan, you need to make sure that you're only copying this part.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Then you paste it in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. So you go to OpenAI model, open it up, create new credential.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Paste it in.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Hit save. And you should not run into an error.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If you are running into an error, then you didn't paste it in correctly. Okay.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  So I'm going to copy it again. Delete this.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Paste it in again and hit retry. And as you can see, it's tested successfully.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  All right. So the feedback form, I can put that in the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The reflection link, the outskill team will send that over to you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  And we are in breakout room three.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Shamim says, "When do you stop listening to the test production URL link in N8N?" Whenever you're done testing.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Whenever you're done testing, then you're then you're done.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For me, I just did straight to production and I published it.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Sumit, to share a screenshot, you just have to take a screenshot and upload it into the Zoom chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. Looks like we're done with questions.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  I am happy to answer any questions in the meantime.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Okay. In the chat.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  How do we know when something should be handled in N8N and when it should be built into the backend instead? It really depends on what's easier for you.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  For me, I don't use N8N at all. I just automate everything in code because it's easier.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  The only downside is you don't really have if you don't know how to read code, then you don't really know what's happening. So it's a little it can be a little bit more challenging.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  With N8N, you have the benefit of seeing the workflow and how it works and everything like that. If you're doing it in full code, you you just have to rely more on your conversation with AI.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Charu, is your workflow published and do you have the webhooks the webhook set up with the post method and the production URL is the secret? Because if you have all those, then it should be working.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  If not, then ask Lovable and say, "Hey, what's what's happening?" Ask it ask it the issue and see what it comes back with.
+Cameron Sullivan Outskill(Co-host), Screen sharing:  Mark, if you could send a screenshot, that would be awesome.

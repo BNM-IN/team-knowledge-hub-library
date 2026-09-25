@@ -2,6 +2,8 @@
 
 The Claude Design screens (`../Landing.dc.html`, `../S1–S4 *.dc.html`, `../NoteHive Design System.dc.html`) built as a Next.js 16 app on the PRD stack (`../uploads/prd.txt`, section 8).
 
+**Docs:** [Architecture](docs/ARCHITECTURE.md) (how the codebase is organised) · [Code flows](docs/FLOWS.md) (what happens, file by file, for each user action).
+
 ## Run it
 
 ```bash

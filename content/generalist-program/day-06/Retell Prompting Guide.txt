@@ -1,0 +1,123 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.retellai.com/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Prompt Engineering Guide
+
+> Best practices for writing Retell agent prompts that produce reliable, natural-sounding phone conversations — structure, examples, edge cases, and pitfalls.
+
+## Introduction
+
+Prompt engineering is the foundation of creating effective AI phone agents. A well-crafted prompt determines how your agent interprets situations, responds to users, and handles edge cases. This guide provides proven strategies for writing prompts that agents can follow reliably.
+
+<Note>
+  This guide focuses on general prompt engineering principles. For agent-specific implementation:
+
+  * **Single/Multi Prompt Agents**: Apply these principles directly in your prompts
+  * **Conversation Flow Agents**: Use these principles within individual node instructions
+</Note>
+
+## Getting Started
+
+To see examples of effective prompts, create a new agent in the Dashboard and explore our pre-built templates. These templates demonstrate best practices for various use cases.
+
+## Best Practice 1: Use Sectional Prompts
+
+Break large prompts into focused sections for better organization and LLM comprehension. This structured approach offers several benefits:
+
+* **Reusability**: Sections can be adapted across different agents
+* **Maintainability**: Easy to update specific behaviors without affecting others
+* **Clarity**: LLMs process structured information more accurately
+
+### Recommended Prompt Structure
+
+```markdown theme={"dark"}
+## Identity
+You are a friendly AI assistant for [Company Name].
+Your role is to [specific purpose].
+You have expertise in [relevant domains].
+
+## Style Guardrails
+Be concise: Keep responses under 2 sentences unless explaining complex topics.
+Be conversational: Use natural language, contractions, and acknowledge what the caller says.
+Be empathetic: Show understanding for the caller's situation.
+
+## Response Guidelines
+Return dates in spoken form: Say "January fifteenth" not "1/15".
+Ask one question at a time: Avoid overwhelming the caller with multiple questions.
+Confirm understanding: Paraphrase important information back to the caller.
+
+## Task Instructions
+[Specific steps the agent should follow]
+
+## Objection Handling
+If the caller says they're not interested: "I understand. Is there anything specific..."
+If the caller is frustrated: "I hear your frustration, let me help resolve this..."
+```
+
+## Best Practice 2: Use Conversation Flow for Complex Tasks
+
+When your agent needs to handle complex logic or multiple tools, consider using Conversation Flow agents instead of trying to manage everything in a single prompt.
+
+### When to Switch to Conversation Flow:
+
+* **Multiple decision branches**: More than 3-4 conditional paths
+* **Tool coordination**: Using 5+ different functions/tools
+* **State management**: Tracking multiple variables throughout the conversation
+* **Reliability concerns**: Single prompt shows inconsistent behavior
+
+### Benefits of Conversation Flow:
+
+* Each node focuses on one specific task
+* Deterministic tool calling and transitions
+* Easier to debug and optimize individual steps
+* More predictable agent behavior
+
+## Best Practice 3: Explicit Tool Calling Instructions
+
+<Note>This section applies only to Single/Multi Prompt Agents. Conversation Flow Agents handle function calls deterministically through their node configuration.</Note>
+
+### The Challenge
+
+LLMs often struggle to determine when to call tools based solely on tool descriptions. Without explicit instructions, agents may:
+
+* Call tools at inappropriate times
+* Fail to call tools when needed
+* Use the wrong tool for a situation
+
+### Solution: Define Clear Triggers
+
+Always specify exact conditions for tool usage in your prompts. Reference tools by their exact names.
+
+#### Example: Customer Service Agent
+
+```markdown theme={"dark"}
+## Tool Usage Instructions
+
+1. Gather initial information about the customer's issue.
+
+2. Determine the type of request:
+   - If customer mentions "refund" or "money back":
+     → Call function `transfer_to_support` immediately
+   - If customer needs order status:
+     → Call function `check_order_status` with order_id
+   - If customer wants to change their order:
+     → First call `check_order_status`
+     → Then transition to modification_state
+
+3. After retrieving information:
+   - Always summarize what you found
+   - Ask if they need additional help
+   - If yes, determine next appropriate action
+```
+
+### Best Practices for Tool Instructions
+
+1. **Use trigger words**: List specific words/phrases that should trigger tool calls
+2. **Define sequences**: Specify when tools should be called in order
+3. **Set boundaries**: Clarify when NOT to call certain tools
+4. **Provide context**: Explain why each tool is being called
+
+
+Summarize This Page 
+

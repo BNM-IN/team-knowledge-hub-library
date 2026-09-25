@@ -1,0 +1,13 @@
+https://app.voicelink.co.in/login
+
+Gift Code : VOICELINK
+Amount = 600
+Validity : till 31st October 2026
+
+Will be able to purchase 1 DID and 1 Channel for testing
+DID = 299 per month
+Channel = 199 ( pro rata cost )
+
+Pulse = 60s
+Inbound Charge = 0.5 Rs
+Outbound Charge = 0.5 Rs

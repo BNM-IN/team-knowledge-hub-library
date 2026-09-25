@@ -1,0 +1,544 @@
+Speaker 1: It's sorted yet. Please watch my screen. Okay, for anti-gravity IDE, you firstly have to go to this particular link, okay that is shared in the, uh, workbook, right, and then— If you're using Mac, okay, for each of the operating system we have two- two versions, okay.
+Speaker 1:  You see here: download for Apple Silicon, download for Intel, download for x64, download for ARM64, and so on and so forth, right. Now, which version to choose?
+Speaker 1:  That depends on which is the machine that you have, right. Most of you might be having M1, M2, M3, or M4 from Apple, and if that is the case, please use download for Apple Silicon, right, but if you have older version of Mac, then use download Intel, right.
+Speaker 1:  You can see the instruction, uh, over here. If you're not sure, then take a screenshot of your computer config, right, put it in ChatGPT or Claude, take a screenshot of this, right, and put it over there.
+Speaker 1:  It'll tell you which is the version to choose, yeah. Likewise for Windows, if it is Intel, then use x64, right.
+Speaker 1:  If it is ARM64-based processor, then used ARM64.
+Speaker 1:  Yes, makes sense everyone. Is this clear?
+Speaker 1:  Okay, so Ivan says ARM64 is for several Snapdragon processors, okay. Installed anti-gravity, had it installed clear, okay.
+Speaker 1:  Anybody having any issues with anti-gravity installation?
+Speaker 1:  If you're done with anti-gravity, type in "AI" in the chat box.
+Speaker 1:  If you're done with installing anti-gravity, type in "AI" in the chat box.
+Speaker 1:  Starting, okay. Get it done.
+Speaker 1:  Today's session is about blindly following what we have in workbook. Still installing, okay, moving slow, that's fine, right.
+Speaker 1:  So you will see as we go into it, we have a lot of steps, by the way, like I think 60, yeah, around 70-odd steps, okay.
+Speaker 1:  But, uh, each of them are pretty simple, we just have to, like, understand and follow it, right. I need the link to workbook, okay, let me share the link.
+Speaker 1:  Okay, so one of the things that I want you to understand is, we are 60-plus here, right, and there are 60, 70-odd steps that we have to do as a group, right. So what I want all of you to do is follow along, right.
+Speaker 1:  Do not fall behind, do not go ahead, right. If you go ahead, I have no problem, but if you ask any questions with regards to that, I'll not be able to answer that, because if I answer something which we are not doing presently, then it's going to confuse everyone else.
+Speaker 1:  Does that make sense everyone?
+Speaker 1:  Intel Core Windows, then you can go with x64, okay.
+Speaker 1:  If you have any questions with regards to any step that we are doing right now, okay, then please put it in the chat along with screenshot so I understand what's happening, and I will be able to help you better, right. If you just tell that I'm stuck, I will not understand what are you stuck with, and what's happening at your end, right.
+Speaker 1:  If you don't know, get into CMD and enter echo percentage processor architecture percentage. Okay, so Ivan has given some trick, so please use that, right.
+Speaker 1:  General query: if AI credits gets exhausted, it gets reset daily. Um, I think so.
+Speaker 1:  I think anti-gravity has that, so it should get reset. I don't use anti-gravity much, I generally use Claude, but yeah.
+Speaker 1:  Cool. Anybody who still not got anti-gravity installed on their machine?
+Speaker 1:  ND in the chat box, not done in the chat box, still downloading, okay.
+Speaker 1:  We'll wait for 2-3 minutes more. Step 13 confusing.
+Speaker 1:  Uh, who was that? Padmaja again.
+Speaker 1:  Like I mentioned, please don't— okay, is that still installation part?
+Speaker 1:  Confirm anti-gravity opens with the agent panel. Yeah, so you have gone ahead of things, right.
+Speaker 1:  Right now we're just still in the phase of installing it, okay. Install it and open it.
+Speaker 1:  You can also log in into your account and keep it ready, okay. ND: should we install any plugins at this stage, or let it be?
+Speaker 1:  No plugins, no plugins. Just install anti-gravity IDE on your system, log in into it, and keep it ready.
+Speaker 1:  Can we increase width of the workbook on your screen? Uh, don't worry about this, I have increased it, but please have your workbook handy because you will have to copy-paste a lot of things.
+Speaker 1:  Intel Core i3, which one to choose? x64.
+Speaker 1:  I'm hoping that it's a Windows machine, right, so x64.
+Speaker 1:  Okay, great. So are we all ready to begin with anti-gravity, everyone?
+Speaker 1:  Have you logged in into your anti-gravity?
+Speaker 1:  Yes?
+Speaker 1:  Not done? Okay, where are you stuck, Sivayule?
+Speaker 1:  Yes, yes, still downloading. Sangu, okay.
+Speaker 1:  Okay. Uh, we'll wait for a minute more.
+Speaker 1:  I hope you'll be able to get it by then. I get an error multiple times, and I tried with different mail accounts.
+Speaker 1:  Uh, what is the error? At the sign-in, but won't let me sign in.
+Speaker 1:  PhilPhilips, okay. Mine's moving very slow, I have to play catch-up.
+Speaker 1:  Okay, anti-gravity is asking if we want to use the agent. Those four choices mentioned: script, review-driven, agent-driven, custom.
+Speaker 1:  Where are you right now? Uh, Ivan, where exactly are you seeing that, those options?
+Speaker 1:  Uh, Anushka, it's not allowing you to sign in with Google. What's, what's the issue?
+Speaker 1:  So better way of doing this is, you firstly log in into your Google account here, right, and then go to your anti-gravity and click on "Sign in with Google." So when it comes on the browser, you're already logged in into your Google account, and it takes your account and signs you in.
+Speaker 1:  Okay, Ivan says I signed in. Great.
+Speaker 1:  No code in callback.
+Speaker 1:  Probably whatever I mentioned. So please sign in to Google and then click on, uh, what does it say?
+Speaker 1:  Uh, sign in with Google here.
+Speaker 1:  Continue with Google. Almost done.
+Speaker 1:  Okay, Bindu Raj has shared screenshot. Let me quickly have a look.
+Speaker 1:  Those of you who have got it ready, select Git provider. Uh, where are you, where are you seeing this, Bindu Raj?
+Speaker 1:  Where are you seeing this particular option? Versal.
+Speaker 1:  Okay, it should be GitHub. It's GitHub.
+Speaker 1:  Error 1: there was an unexpected issue setting up your account. Sorry, this account is ineligible to use anti-gravity IDE.
+Speaker 1:  Otherwise, I'll do the session on my own as soon as it works. Uh, yeah, maybe you'll have to try out with some other account.
+Speaker 1:  I'm not sure why it's saying ineligible to use anti-gravity IDE. Yeah, maybe you can just check out what we do.
+Speaker 1:  It's very simple. You will understand as we go on.
+Speaker 1:  Okay, can you help me again with the workbook link? I rejoined and missed the link.
+Speaker 1:  Yeah, sure. I'll share the link.
+Speaker 1:  Uh, Benjamin, no, don't, don't add any plugins as of now. Just log in, keep your anti-gravity ready.
+Speaker 1:  I'll tell you what needs to be added and how do we go about it, right. So until then, don't do anything.
+Speaker 1:  Okay, once you're signed in into your Google account, you can see this next button, okay. You will firstly see "Success: Continuing," right, and then you can click on Next, and this is the screen where you will land on.
+Speaker 1:  Okay, once you see this particular screen, type in 13 in the chat box. It doesn't land there.
+Speaker 1:  Where has it landed? Where has it landed?
+Speaker 1:  It lands with a series of questions. Uh, what kind of questions?
+Speaker 1:  There will be a lot of prompts. Just click Next.
+Speaker 1:  That is what I did. Yeah, select theme.
+Speaker 1:  I am in, okay. Padmaja, after clicking on a lot of prompts, you have landed on this particular screen, correct?
+Speaker 1:  Yes? Okay, so all of you, theme build with Google, yes, please.
+Speaker 1:  Ritesh, it landed on the below screen. Yes, cool.
+Speaker 1:  Uh, yes, go with personal.
+Speaker 1:  I think I downloaded both anti-IDE and 2.0. Use IDE, not 2.0.
+Speaker 1:  What plan should I choose on Versal? Uh, no, free.
+Speaker 1:  We are not paying for any of the tools, everyone, so please be aware of it. Don't add your cards or don't do any sorts of payments.
+Speaker 1:  Where is that option, personal? Uh, Padmaja, that is from Versal, if I'm not wrong.
+Speaker 1:  No project on anti-gravity. Yes, that's fine.
+Speaker 1:  No project on anti-gravity is okay. We will create a project.
+Speaker 1:  Okay, are we all ready, guys?
+Speaker 1:  Two minutes is, Sayyad, okay.
+Speaker 1:  Once this is ready, it's pretty straightforward, okay. But everyone, whenever I'm explaining anything, please watch my screen, because here we will not be able to repeat, right.
+Speaker 1:  Once I've asked a prompt on anti-gravity, it'll start building, and I will not be able to repeat. I can just scroll above and show you what I've done.
+Speaker 1:  Uh, Minesh, if you have created a wrong project name, ignore it, we will create a new one. Okay?
+Speaker 1:  Okay, so, uh, we will start now, everyone. So those of you who have still not finished, please keep watching.
+Speaker 1:  Maybe you'll be able to catch up, okay. Now, the first thing that we're going to do— this is my anti-gravity screen, right, so can I go to— Um, okay, so you can click on this particular option, "Create new project," or in your case, there was this option of "Open folder," right.
+Speaker 1:  So create a folder in your desktop, okay. Go to your desktop, create a folder.
+Speaker 1:  You can name it as "Portfolio," "Website," or something like that.
+Speaker 1:  Okay, make a clean folder on desktop. You can name it as "Portfolio website."
+Speaker 1:  Uh, no, no, no, don't install anything as of now. I don't think we need any extensions.
+Speaker 1:  Okay, we will see that.
+Speaker 1:  Okay, have you created a clean folder named "Portfolio website"? Once you're done with this, type in 14 in the chat box. 14 in the chat box.
+Speaker 1:  Okay. Click desktop in the left sidebar.
+Speaker 1:  Okay, that's fine. Create a new folder on desktop.
+Speaker 1:  Again, come on. Okay, that's fine.
+Speaker 1:  Folder name is "Portfolio website." If you have done this, open the folder named "Portfolio website."
+Speaker 1:  Okay. Okay, at first the folder can be empty.
+Speaker 1:  So basically, this is a clean folder, right. There is nothing in there.
+Speaker 1:  Now, let's all go to LinkedIn.
+Speaker 1:  Excuse me. Let's go to our LinkedIn account.
+Speaker 1:  Open your LinkedIn account. Okay, and then if you click on these three dots, okay, once you go to LinkedIn, you can see these three dots.
+Speaker 1:  You have an option of "Save to PDF," right. You have an option of "Save to PDF."
+Speaker 1:  Okay, download your LinkedIn account in a PDF format. Once you're done with that, type in 22 in the chat box.
+Speaker 1:  Once you're done with downloading your portfolio, your LinkedIn account, where is the button to save to PDF? Uh, you can check my screen.
+Speaker 1:  Uh, the three dots, click on that, and you have "Save to PDF." Or you can also print your account.
+Speaker 1:  I think "Save to PDF" would be a better option. Okay, so go to your LinkedIn account, click on these three dots, and use "Save to PDF."
+Speaker 1:  Once you're done, type in 22 in the chat box.
+Speaker 1:  Okay, now copy this particular name. That is linkedinprofile.pdf.
+Speaker 1:  Okay, linkedinprofile.pdf. Head over to your downloaded files, right.
+Speaker 1:  Head over to your downloaded files and rename the PDF that you downloaded to linkedinprofile.pdf.
+Speaker 1:  Okay, linkedinprofile.pdf.
+Speaker 1:  And move that particular file into the folder that we just created. Okay, move the particular file into the folder that we just created.
+Speaker 1:  Once you move it into the folder, type in 26 in the chat box. If we do PDF, then it's all text, but we do normal screen prints with the photos extra.
+Speaker 1:  Also, come on to the Portfolio website. Uh, Ravdeev, so we will also give the link of our LinkedIn, okay.
+Speaker 1:  It will fetch details from there. You can also, what do you say, print this page.
+Speaker 1:  That should also be fine. That should not be a problem.
+Speaker 1:  It'll take whatever is available on the screen anyways.
+Speaker 1:  Ashok, if you don't see three dots, then just use Control + P, okay, or just print it. So whatever is there on the page gets printed.
+Speaker 1:  Um, I don't have three dots on my LinkedIn. Can I use my public profile URL?
+Speaker 1:  Uh, Sivuyile— sorry, I'm having trouble pronouncing that, but you can print your page, okay. If you don't see the three dots, you can use print to print the page.
+Speaker 1:  Okay.
+Speaker 1:  Sangu says in resources you can download.
+Speaker 1:  Here, I guess.
+Speaker 1:  Anyways, you can print the page, everyone. If you don't see the three dots, you can print the page.
+Speaker 1:  Okay, now, let's go back to anti-gravity, right.
+Speaker 1:  Let's go back to anti-gravity and in your case, you should be able to see this particular option, right, "Open folder."
+Speaker 1:  Okay, click on "Open folder" and select the folder that you created. Okay, I'm going to select it from here.
+Speaker 1:  Okay, once you select that folder in anti-gravity, type in 31.
+Speaker 1:  Type in 31 once you do that.
+Speaker 1:  Okay, great.
+Speaker 1:  Click on "Open." Keep the project name as "Portfolio website."
+Speaker 1:  Okay, if anti-gravity asks for security settings, choose "Default."
+Speaker 1:  Okay, choose "Default" if it is asking for security settings.
+Speaker 1:  Are we all ready to begin with our first prompt, everyone? Of course, you will have to select Gemini 3.5 Flash Medium.
+Speaker 1:  Okay, 3.5 Flash. Oh, I don't have that.
+Speaker 1:  Strange. Okay, I'll go with 3.6 Flash Medium.
+Speaker 1:  Okay, if you don't see 3.5 Flash Medium, go with 3.6 Flash Medium.
+Speaker 1:  Uh, if you have 3.1 low, you don't have 3.5 or 3.6, uh, Krishna?
+Speaker 1:  3.6 high is there. Medium is not there, Krishna?
+Speaker 1:  Uh, Ivan looks like, what do you say, a wrong version has got installed in my system. That's why it has come to chat.
+Speaker 1:  Okay, but once I start posting the prompts, it'll all work well.
+Speaker 1:  Oh, wait.
+Speaker 1:  Just a minute.
+Speaker 1:  The file is not displayed in the text editor because it is either binary or uses an unsupported text encoding. Uh, Suman, where exactly are you facing this issue?
+Speaker 1:  Okay, I quickly got this sorted. So I'll close this particular thing so that we are on the same page.
+Speaker 1:  Okay, so I'll click on "Open folder," and I'm going to select the folder that I created.
+Speaker 1:  Okay, yes. Okay, so if you're getting this particular window, right, then click on, um, "Yes, I trust the authors."
+Speaker 1:  Come on. Where did that go?
+Speaker 1:  It closed. Strange.
+Speaker 1:  Uh, I don't know why did it close the application, but hopefully it doesn't do it now.
+Speaker 1:  Crazy. Okay, so please watch my screen right now.
+Speaker 1:  Okay, please watch my screen right now. Whenever I open the project, okay, it opens up like this, along with the file already added there, right, because we have moved our linkedinprofile.pdf into that particular folder.
+Speaker 1:  Yes, are you all able to see that?
+Speaker 1:  Okay, so let me see the screenshots. Um, no, so don't open anything.
+Speaker 1:  Uh, who is this? Rajdeev, I see that you have opened linkedinprofile.pdf.
+Speaker 1:  Don't open that. Okay, just close that particular file that you have opened.
+Speaker 1:  And Suman, again, you have also opened the PDF file. You have to open the folder.
+Speaker 1:  Okay, please open the folder.
+Speaker 1:  Clear, Rajdeev, and also Suman. Are we good?
+Speaker 1:  Cool. Now, let's go to our first prompt, right, step 34.
+Speaker 1:  Okay, so we'll copy this entire prompt that we've got here. We'll copy this entire prompt that we've got here.
+Speaker 1:  Okay, go back to IDE, and on the right side, you can see chat, right. You can also increase this space.
+Speaker 1:  Okay, and I'll paste this. Now, I've not selected any model.
+Speaker 1:  Strange, I don't have any model. To use the agent, please log in here.
+Speaker 1:  Come on, I just logged in. Let me do it again.
+Speaker 1:  Sign in.
+Speaker 1:  Okay, is it back? Yes.
+Speaker 1:  Click on next. Okay, I'm here, and 3.5 Flash Medium.
+Speaker 1:  3.6 Flash Medium. Okay, that's what I'm going to select.
+Speaker 1:  Now, in the prompt, the link of LinkedIn, okay, is that of Harshith. So let's change that to our own LinkedIn link.
+Speaker 1:  Okay, so copy the link, come back, paste it over here.
+Speaker 1:  Yep. And let's remove this particular line.
+Speaker 1:  Which model again? Gemini 3.8?
+Speaker 1:  Uh, I'm using 3.6 Flash Medium. Okay, so you can also use, uh, something lower because if we use more credits, then we might not be able to finish everything.
+Speaker 1:  Okay, so I'll repeat what I did, right. So from the workbook, in step 34, we have a prompt.
+Speaker 1:  I copy this entire prompt, right, and I come to IDE. On the right side, we have a ChatGPT kind of a window where we can put our prompt.
+Speaker 1:  I paste the entire prompt. I've selected 3.6 Flash Medium.
+Speaker 1:  Okay, and, um, I have also replaced the LinkedIn profile link, right. If you see here, this LinkedIn link is of Harshith, uh, Harshith's LinkedIn profile.
+Speaker 1:  Change it to your own LinkedIn profile.
+Speaker 1:  Okay, once you're done with that, press send.
+Speaker 1:  Okay, so hit enter. Go on, do this, and type in 36 in the chat box, everyone.
+Speaker 1:  Next line can also be removed, Krishna, regarding scraper of anti-gravity. Yeah, you can remove that.
+Speaker 1:  I mean, even if you keep, no harm, but yeah. Now, okay, we'll have to click yes, allow this time, yes, allow this time, as many times as we are getting it.
+Speaker 1:  Okay, we'll keep getting it. I hope I have enough credits because I tried it in the afternoon, but let's see.
+Speaker 1:  Okay, it's working.
+Speaker 1:  All of you are able to see? Okay, there you go.
+Speaker 1:  Okay, it has extracted all the information, and it has asked me. I have not started building yet.
+Speaker 1:  Whenever you are ready, please confirm if the summary looks good, and we will proceed step by step. I'll say, go ahead.
+Speaker 1:  Okay, if you have got something like this, please reply back. Go ahead.
+Speaker 1:  Aadyagoo, yeah, tell me, how can I help you?
+Speaker 1:  Um, you're not opening the file, you are opening the folder and selecting the folder that we created, right. Uh, we had created a folder where we have saved our LinkedIn profile PDF.
+Speaker 1:  So open that particular folder. Okay, when you open the folder, you should be able to see that folder name here and LinkedIn file here.
+Speaker 1:  Okay, don't open anything else, right. Directly go to, uh, right side where you can add the prompt and copy-paste the prompt.
+Speaker 1:  Okay, you can see here, it's asking me allow this time, yes, and always allow node v, uh, something, right. Yes, and always allow in this conversation, right.
+Speaker 1:  So what I will do is I'll go ahead with yes, and always allow node v and pn in this conversation. Okay, so I'll select that and click on submit.
+Speaker 1:  If you are getting a request, please submit. Allow it to proceed further and submit.
+Speaker 1:  Again, it came, so I'll select submit.
+Speaker 1:  Um, as per the instruction, they have told yes, allow this time.
+Speaker 1:  After giving prompt, I only see working. It does not seem to be processing.
+Speaker 1:  Working means it's working. Okay, so wait, don't worry.
+Speaker 1:  It'll, it'll come. It'll come.
+Speaker 1:  Okay, so it has come up with some implementation plan. I'll click on proceed for that.
+Speaker 1:  Yes, Ivan, if it is asking for implementation plan, click on proceed.
+Speaker 1:  I don't get it working after sending send. Says, I am new to this.
+Speaker 1:  Okay, thanks. I submitted even before you did.
+Speaker 1:  Still at working mode. Uh, don't worry, it's working.
+Speaker 1:  So let's hope that it'll work and come back.
+Speaker 1:  Which, uh, uh, this thing did you use? Model.
+Speaker 1:  Which model did you use?
+Speaker 1:  And, uh, Minish, what do you mean by says, I am new to this? Could you share a screenshot or something like that?
+Speaker 1:  Gem 3.6 Flash. Flash what?
+Speaker 1:  High, medium? Which one are you using, Ruhi?
+Speaker 1:  We have been told that we will need to use multiple agents to wipe code to reduce the usage of tokens. Can you tell how to, uh?
+Speaker 1:  Subramanya, no, we are not using any, uh, multiple agents for today's exercise, right. It's, uh, just one.
+Speaker 1:  Okay, um, again, those of you who are using high, please be mindful of it, uh, because if you exhaust your tokens, you may be stuck halfway, right. Um, so allow this time, submit.
+Speaker 1:  Minish, I know what is the problem. Look for something at bottom, click, and it'll open up and show working.
+Speaker 1:  Yes, not for today's exercise, but in general, how? Um, okay, in general, I mean, it depends on what is the requirement, right.
+Speaker 1:  So multi, when we say multiple agent, so you can have an orchestrator agent, which will basically be a master agent. Um, you remember, uh, building Jerry?
+Speaker 1:  Subramanya?
+Speaker 1:  Right, so what did we do with Jerry? So we had a master agent, then we had an email agent, we had a calendar agent, we had a, uh, meetings agent, right.
+Speaker 1:  So that is your multi-agent system, okay, where you are dividing it into sub, sub-agents, and you are telling the master agent, okay, this is what I want to get done, right. You use sub-agents, and each of the sub-agents have its own tools, its own capacities.
+Speaker 1:  So give it instruction, get the job done, you check if it is done properly or not, and then reply back to the user. Okay, that's a multi-agent system, in, in, in short.
+Speaker 1:  You can prompt that we need to have so many agents and orchestrator to manage each of the agents and check. Exactly.
+Speaker 1:  So if you want to understand this smoothly, you can also look for, uh, agent grid. Okay, that's also wonderful, this thing to see how multi-agent system actually works.
+Speaker 1:  I think Claude has also come up with something like that recently. I've not yet tried it.
+Speaker 1:  I'll have to look into it. Okay, it says, portfolio website is ready.
+Speaker 1:  Seriously?
+Speaker 1:  Uh, Divya, can you share a screenshot? I mean, it's too early for it to be ready.
+Speaker 1:  Uh, if it asks for allow launching local TTP server, do we go? Yes, for anything that it asks, just allow it.
+Speaker 1:  Any sites where we can learn that kind of prompting to be accurate? Uh, you can use any of the LLMs, ChatGPT, Claude, any of this, right.
+Speaker 1:  They are smart enough to understand what you have understood, what you have not understood, right, and will help you to, uh, build on top of it. Thank you.
+Speaker 1:  Your portfolio website is ready to use. Whenever you want to add more details, update your photo, or make changes, just let me know, and I'll be happy to help.
+Speaker 1:  Uh, can you share a screenshot so I understand where exactly you landed? We need to put a file in our folder, portfolio website.
+Speaker 1:  Uh, Benjamin, yes, you have to put your LinkedIn profile.pdf. Stuck here.
+Speaker 1:  Ruhi, okay, let me check what exactly is happening at your end.
+Speaker 1:  Is this the first prompt that you gave?
+Speaker 1:  Uh, no, Divya, I think you can add screenshot. Uh, you have an option of, uh, file on the right side.
+Speaker 1:  You might not be able to copy-paste the image directly, but you have option of, uh, file on the right side in the chat, right, besides the emoji icon. So you can click on that, select your file, and then attach it here.
+Speaker 1:  Um, Ruhi, I see that you have used 3.6 Flash low. Maybe it's taking some time to finish it, but, um, it should have been done by now.
+Speaker 1:  It's, it's too long, actually. Always allow, yes, opening URL in browser.
+Speaker 1:  Okay, so basically, if I go here, you can see it's actually built something for me, right.
+Speaker 1:  You can see. Uh, in fact, this time it has used some random image, AI-generated image.
+Speaker 1:  I did this today afternoon, and this is what it built for me. Oh, where is it?
+Speaker 1:  This one.
+Speaker 1:  It actually used one image that I had added, uh, on our, uh, YouTube or something like that, right. So now I see it has added some random image.
+Speaker 1:  I mean, AI-generated.
+Speaker 1:  Anyways, so did you get your landing page or your portfolio built? Everyone?
+Speaker 1:  It's still working. It's still doing some changes.
+Speaker 1:  It still says working. Okay, good.
+Speaker 1:  Please, can you show the process to convert LinkedIn page into PDF? Benjamin?
+Speaker 1:  Okay, so you can just print the page. Okay, you can print the page, or you can use these three dots to click on save to PDF.
+Speaker 1:  The allow thing keeps popping up. Yes, yeah, I mean, it keeps popping up, and you have to keep allowing it.
+Speaker 1:  That's the exercise for today.
+Speaker 1:  Uh, what else? Allow checking Python environment.
+Speaker 1:  Should I allow? Yes, uh, please allow.
+Speaker 1:  I'm still answering a lot of questions. Anti-gravity is asking me about the portfolio site.
+Speaker 1:  I hope it's just about allow, allow, allow, and not anything else.
+Speaker 1:  Adina? How does LinkedIn in PDF get to folder?
+Speaker 1:  You, uh, copy that file and put it into a folder, and that folder is what we select in anti-gravity IDE.
+Speaker 1:  I have no questions so far. Just working.
+Speaker 1:  Great. Amazing.
+Speaker 1:  It's about my career background and design ideas.
+Speaker 1:  Don't go, I mean, don't give prompt for it to make any changes, right, because if you, uh, exhaust your, uh, your limits, then you will not be able to build something more.
+Speaker 1:  Yes, Yamani, getting some proper workout.
+Speaker 1:  Cool. Um, I am done.
+Speaker 1:  Can I drop off? Feedback link, please.
+Speaker 1:  Okay, Godwin, sure. I'll share the feedback form link.
+Speaker 1:  Uh, where is it? Yeah, this is the one.
+Speaker 1:  Yep, this is the one, and breakout room is 4. Okay, don't get confused with 3.
+Speaker 1:  I'm Ritesh Hegde. Your LinkedIn link, sure.
+Speaker 1:  Ha, okay. Um, I am receiving this message over and over again, even when I change LLM model.
+Speaker 1:  What am I doing wrong? Uh, your plans baseline quota will refresh on 09:30, and this account is ineligible for higher rate limits through a Google AI plan at this moment.
+Speaker 1:  Uh, maybe you have exhausted your limits, Victorio, so you may have to wait for some time. Oh, wow.
+Speaker 1:  Uh, Margishi looks amazing, isn't it? Like, the color and all of that looks pretty cool.
+Speaker 1:  Um, Sibuyule, let me check.
+Speaker 1:  My screen is stuck here. Let me check where exactly.
+Speaker 1:  Are you sure you are in anti-gravity IDE?
+Speaker 1:  Yeah, okay.
+Speaker 1:  Yeah, click on yes, allow this time. Uh, who's that?
+Speaker 1:  Sibuyule? So click on allow this time.
+Speaker 1:  I mean, you, you will have to click on allow this time as many times as it comes. Okay, don't forget that.
+Speaker 1:  I just put 20 USD on Claude last night. Uh, Victorio, but this has nothing to do with Claude.
+Speaker 1:  Are you using Claude, uh, here? Are you using the Claude model here?
+Speaker 1:  And even if you use Claude model here, you have not connected your account here. Okay, so that wouldn't work.
+Speaker 1:  I have to change my pick. Yeah, I mean, changing pick and all can be done, but don't do it right now.
+Speaker 1:  It might consume some, uh, credits. Okay, uh, Maniraj, you have shared an index file.
+Speaker 1:  I'm not able to download that. Maybe you can just share some screenshot.
+Speaker 1:  Okay, I mean, we will launch the, uh, website, and then you can share the link. Seems a bit too expensive.
+Speaker 1:  Mm-hmm, yeah, that's right. Um, yes, I am in anti-gravity IDE.
+Speaker 1:  Yeah, uh, Sibuyule, you have to click on allow. Okay, I saw that you have not clicked on that, so please click.
+Speaker 1:  Potential security issue detected. Oh, yeah, I'll not download the HTML file.
+Speaker 1:  Okay, Padmaja.
+Speaker 1:  Um, open your web browser, Safari, and type, uh, yeah, you can do option one.
+Speaker 1:  Um, you can just copy the particular link that you've got and open it in your browser.
+Speaker 1:  Who was that? Padmaja.
+Speaker 1:  Uh, oh, it wanted to me to press enter instead of clicking on the mouse. Yeah, okay.
+Speaker 1:  Sangu, let me check what have you shared.
+Speaker 1:  Uh, index.
+Speaker 1:  Yeah, uh, so who was it? Sangu, so what you'll have to do is you have this index.html, right, so you can go to the folder that you created.
+Speaker 1:  Everyone, this is one way of opening your, uh, file that you've created. So if you go to the folder, then there is something called index.html.
+Speaker 1:  Okay, just double-click that. Okay, and Google Chrome, open.
+Speaker 1:  So that is your portfolio that it has created for you. Okay, that's your portfolio.
+Speaker 1:  So go to the folder that we created to begin with, and you will see index.html. Open that file.
+Speaker 1:  My website looks great. Rizwan?
+Speaker 1:  Yes, of course. I mean, that's what we're building.
+Speaker 1:  So, uh, SSO, should I put credits on Gini instead?
+Speaker 1:  Gemini? Um, no, I mean, even if you put credit, uh, you can, but it has to get linked to this particular account that you're using in anti-gravity.
+Speaker 1:  So I would suggest, uh, probably use some other account. Okay, whatever Google account you have used to, uh, sign in to anti-gravity, use some other Google account.
+Speaker 1:  Okay, that should help to get some credits.
+Speaker 1:  Okay, Ravdeep.
+Speaker 1:  Yeah, Ravdeep, I, I just mentioned. Go to your folder, click on, I mean, open your, uh, in index.html.
+Speaker 1:  Okay, cool. So let's move on now.
+Speaker 1:  Yamani, what are you trying to install now?
+Speaker 1:  GitHub CLI? Uh, I don't think it's that.
+Speaker 1:  Recording in progress.
+Speaker 1:  Okay, ignore.
+Speaker 1:  Um, very cool, Janani. Okay, uh, Kurtis says done.
+Speaker 1:  Let's quickly check. Uh, those of you who have finished, please, uh, share your feedback.
+Speaker 1:  I've shared the feedback form link. Yeah, this looks cool as well, right?
+Speaker 1:  Of course, you've, once you're done with this, right, you can play around with adding some, uh, cool animations, some color themes, right, adding your own image. Okay, you can try it out with, uh, some experimental things.
+Speaker 1:  Yeah, looks cool, cool. Um, Sangu, no, uh, if you share this particular link right now, we will not be able to access it.
+Speaker 1:  It's still in your local machine. Okay, so we will get it to online.
+Speaker 1:  Okay, we will get it online. Don't worry.
+Speaker 1:  I have input the prompt too. I opened the index file in the folder.
+Speaker 1:  Uh, do I need to do any, anything with the index file? No, don't do anything.
+Speaker 1:  Just get this done. Okay, um, you, you should be able to see all the four things are installed on your system.
+Speaker 1:  I had already installed it before. Okay, that's why it gave me, uh, very quickly.
+Speaker 1:  But if you're installing it for the first time, it may take some time. Approve, approve, approve.
+Speaker 1:  Okay, keep approving it until it is done. I was able to get something up.
+Speaker 1:  Uh, Yamani, great. Is it done?
+Speaker 1:  No, no, not yet, not yet. So this is just the second step.
+Speaker 1:  Okay, uh, GitHub CLI, not clear what is to be done. You just have to copy-paste the prompt, Krishna.
+Speaker 1:  So we have a prompt available in the work, workbook, uh, which is basically at step 43. Just copy-paste the prompt and give it approval whenever it is asking for.
+Speaker 1:  Okay, Benjamin, whatever you have shared is a local file. We will not have access to it.
+Speaker 1:  Okay, this is not yet live. So we will be making it live, and that's why we are connecting it to GitHub, and then Versel will get connected.
+Speaker 1:  Okay, that's what we are going to do now. We are just halfway through.
+Speaker 1:  Okay, we are just halfway through. Now, for those of you whoever, uh, what do you say, get something like this for GitHub.
+Speaker 1:  Okay, when you ask it for GitHub, it will show you a message like this with the link, okay, which says github.com/login/device. Okay, and it'll also give you a code, right, eight-digit code.
+Speaker 1:  Okay, what should I say after pasting the first prompt? Uh, Mark, after you finish the first prompt, you have to come to second prompt.
+Speaker 1:  Okay, Git still installing. Okay, fine, take your time, right?
+Speaker 1:  Nothing to worry about. So we still have a lot of time.
+Speaker 1:  Don't worry. I'll be here until the breakout room is open.
+Speaker 1:  I'll keep answering your questions. So nothing to worry about.
+Speaker 1:  Okay, so if you get a message like this when you're installing Git, okay, uh, open this particular link, open this particular link, and add this particular code. Now, one of the things that you have to do is you have to open this particular link in the browser where your GitHub is already logged in.
+Speaker 1:  Okay, you have to open this particular link in the browser where GitHub is already opened, right? And then it'll ask you for the code.
+Speaker 1:  Enter the code. Not this particular code, the code that is showing, uh, shown to you on your system.
+Speaker 1:  Okay, on your, uh, anti-gravity IDE.
+Speaker 1:  Okay, you'll have to select your account, click on continue, and then you enter your code. Okay, so if you see the workbook, every step is mentioned, like what needs to be done, right?
+Speaker 1:  Once you're done with authorizing your GitHub, okay, authorize GitHub, type in 50. You should be able to see something like this.
+Speaker 1:  Congratulations, you are all set, right?
+Speaker 1:  Once you get this, type in 50.
+Speaker 1:  Sangu, what exactly did you not understand? Where are you confused?
+Speaker 1:  Uh, Ravdeep, that's fine. It may, it might take some time.
+Speaker 1:  Okay, keep one thing in mind. You keep watching this particular screen, right, because it may have asked you for approval.
+Speaker 1:  Okay, so please get that. Uh, Sangu, with regards to GitHub, right, it'll ask you, I mean, whenever you ask it to install, you may see a message like this, right, which will have a link and which will also have an eight, eight-digit code, eight-character code.
+Speaker 1:  Okay, so open the link, select the GitHub account. Okay, you'll have to click on continue.
+Speaker 1:  Okay, and then it'll ask you these eight characters. Type in the eight characters that you've got in your, uh, anti-gravity.
+Speaker 1:  Click on continue. Then it'll take you here.
+Speaker 1:  Give it permission. Authorize GitHub.
+Speaker 1:  Okay, and then you will see something like, "Congratulations, you are all set." Okay, once you are there, type in 15 in the chat box.
+Speaker 1:  Uh, Sivilay, my site just finished. Great.
+Speaker 1:  Go to the next step. Go to the next step.
+Speaker 1:  Copy-paste the second prompt that you can see in step 43 or so.
+Speaker 1:  Once you're done with this, type in 15 in the chat box, everyone, once you see this particular screen, which is connecting your GitHub.
+Speaker 1:  Did you all understand why we are using, uh, anti-gravity, GitHub, Versel, and all? Are you clear on that?
+Speaker 1:  Yes, clear. CI/CD.
+Speaker 1:  Okay.
+Speaker 1:  Um, who sent this screenshot?
+Speaker 1:  Binduraj. Uh, Binduraj, uh, I'm not sure.
+Speaker 1:  The screenshot is not very clear as to what's happening, but as long as it's working, it's good enough. Cleared step 50.
+Speaker 1:  Padmaja, great, amazing. We will move on in a short while.
+Speaker 1:  I checked your computer to see if the required tools are installed. Right now, none of the four, uh, step one.
+Speaker 1:  I will begin installing. No, yeah, sure.
+Speaker 1:  Anita, that's fine. So it's installing one by one.
+Speaker 1:  Create repository GitHub. Uh, Divya, where are you seeing this?
+Speaker 1:  Please see my screenshot. Ravdeep, where did you share your screenshot?
+Speaker 1:  I don't see your screenshot yet. Can you share it again, please?
+Speaker 1:  Okay, you've shared it bottom. I'll see.
+Speaker 1:  When in doubt, pay. I did, and now all works so far.
+Speaker 1:  Okay, that's amazing, uh, Vitoria. Cool.
+Speaker 1:  Um, yes, so who was this? Ravdeep, click on yes.
+Speaker 1:  I love, I love this time. Click on yes.
+Speaker 1:  I love.
+Speaker 1:  Keep doing that. Today's exercise is that.
+Speaker 1:  I love, I love, I love. Click many times.
+Speaker 1:  Yeah, it'll keep asking you. It'll keep asking you.
+Speaker 1:  Click on I love. It's asking you for different permissions, if I'm not wrong.
+Speaker 1:  If it's still not working, uh, not, it's just not clickable. Okay, if it's still not working, then, uh, you'll have to take a screenshot and put it in Claude or ChatGPT and ask what exactly is the, is, is, is the issue.
+Speaker 1:  Okay, cool, cool, cool.
+Speaker 1:  We're about 20 steps back, but everything else, once this is done, is very simple.
+Speaker 1:  Are you all Claude lovers or ChatGPT lovers or something else? Which one do you mostly use?
+Speaker 1:  Claude and Cursor both, says Wahid. Claude, very, very confused which one to settle with.
+Speaker 1:  Ravdeep, okay, I'm loving anti-gravity because of tokens. Mm-hmm.
+Speaker 1:  Okay, ChatGPT, Peter, Claude, Maniraj, Padmaja, Claude. Okay, just a tip, right, so make sure that you are, uh, you're building a system, whether Claude or ChatGPT, where the data is not just on the platform, right?
+Speaker 1:  Sync it to your Supabase or Google Sheets or Google Drive or something like that, where the data, I mean, it gives you the data, but it should also automatically get saved somewhere outside. Okay, uh, such that tomorrow, if you want to shift from Claude to ChatGPT for whatever reason, right, it's just connecting that particular system, right?
+Speaker 1:  It could be Supabase, it could be your Google Drive with Google Sheets, and so on and so forth. Okay, so it becomes instant, like 10 minutes job.
+Speaker 1:  GitHub, but never created a repository. That's a problem.
+Speaker 1:  Uh, yeah, I think you will have to create a repository there, but, um, that's not mentioned here.
+Speaker 1:  I think it comes later. Let's see.
+Speaker 1:  Just give me a minute. Let me check.
+Speaker 1:  I think it's a next step, not now. Add taste skill.
+Speaker 1:  Okay, that is copy-pasting this. Um, are you getting any issues because of that at the moment?
+Speaker 1:  Um, Ivan. And, uh, what is this?
+Speaker 1:  Oh, this screenshot is fine. Divya sent it, I guess.
+Speaker 1:  Yeah, you don't have to do anything here, uh, Divya, for now. Okay, we are at to see how to connect anti-gravity or Cursor to external database other than Supabase.
+Speaker 1:  Yeah, prompt seems stuck on the following. I am retrieving the Git installation using automated silent flags to ensure it completes smoothly.
+Speaker 1:  I will wait for it to finish and verify Git. Okay, you can wait for it.
+Speaker 1:  Yes, taking forever, but it finally completed step 45. That's great, Ivan.
+Speaker 1:  Amazing. Go on.
+Speaker 1:  Are we done with part F? Uh, if you have, if you have seen this particular step, okay, then we are almost done.
+Speaker 1:  Uh, this one, sorry, not this. Part F, no, we have still not gone to part F.
+Speaker 1:  Padmaja, we have still not gone there. I'm just waiting for others to finish this GitHub thing.
+Speaker 1:  Okay, we'll wait for, uh, another two minutes, and then we'll go to part F.
+Speaker 1:  It's been over 10 minutes. Yeah, sometimes it can take time, uh, depending on what all is installed on your system, right?
+Speaker 1:  Uh, if you don't have any of those four things, then probably it'll take some time. Okay, the Node.js and NPM installation is currently running in the background.
+Speaker 1:  I will notify you as soon as I'm getting this message. Yeah, it is basically running at, on, on your system, installing.
+Speaker 1:  Same with me, Maniraj. Yes, okay.
+Speaker 1:  One of the things is I went through this particular document today, right? Um, good part is we don't have to do anything.
+Speaker 1:  Okay, it's just about prompt and giving it permissions. Okay, and, uh, second is every step, they have put a screenshot with explanation as to what needs to be done, right?
+Speaker 1:  So even if you are doing it offline, um, you should still be able to complete it. You just have to read.
+Speaker 1:  Okay, and of course, uh, if you put this on Claude or ChatGPT or something like that, it'll also tell you what needs to be done. Or if you have a browser extension of Claude, okay, it'll, uh, probably do the Git Versal and all of that for you.
+Speaker 1:  Cool. Okay, I think let's move on.
+Speaker 1:  We'll wait for one more minute. So we'll republishing to Git later, cost more tokens.
+Speaker 1:  I have built a basic MVP website. It needs a lot of polishing.
+Speaker 1:  No, no, no, you can, uh, keep sending it to Git. GitHub. 50, done on time.
+Speaker 1:  Okay, Margishi, amazing. Let's see what Subramanya has shared.
+Speaker 1:  Still waiting for the Git download. I'll catch up when done.
+Speaker 1:  Okay, amazing.
+Speaker 1:  Uh, Subramanya looks super cool. Okay, let's move on now.
+Speaker 1:  Okay, we are going to add a taste skill, right? And all we have to do is copy this particular prompt.
+Speaker 1:  Okay, copy this particular prompt. Go back to anti-gravity and paste this particular prompt.
+Speaker 1:  Okay, so copy the prompt, paste the prompt.
+Speaker 1:  It'll ask you for permission. Give permissions.
+Speaker 1:  Git installation complete, says Rizwan. Amazing, Rizwan.
+Speaker 1:  If all the four are installed, then go ahead. I mean, when all the four are installed, you should be able to see something like this.
+Speaker 1:  Node.js works, NPM works, Git works, GitHub CLI works, GitHub CLI is signed in, right? Something like this you should be able to see.
+Speaker 1:  Okay, and then you can put the taste skill.
+Speaker 1:  Paste taste skill. Check.
+Speaker 1:  Okay, mine is, uh, it's already done. Has finished successfully.
+Speaker 1:  Probably because I had already installed it, but, uh, yeah, you can check that out. And once that's done, okay, type in 55 in the chat box.
+Speaker 1:  Once your taste skill is installed, type in 55 in the chat box.
+Speaker 1:  Uh, Ravdeep, sorry, uh, what did you say? Please see 404 error on scratchpad and screenshot.
+Speaker 1:  No, again, you will have to click on I love this time. If the issue persists, then you'll have to ask ChatGPT or something like that as to what's happening here.
+Speaker 1:  Okay, what's the issue? Because from screenshot, I'll not be able to understand what exactly is wrong.
+Speaker 1:  Once a taste skill is installed, type 55, everyone.
+Speaker 1:  Okay, those of you who have finished 55, go ahead and paste this particular prompt. Okay, again, the LinkedIn link should be yours, right?
+Speaker 1:  So copy this particular link, uh, prompt. Right, copy the prompt.
+Speaker 1:  Just change the LinkedIn link to yours.
+Speaker 1:  And paste it. Submit it.
+Speaker 1:  This is the build, the website part.
+Speaker 1:  Uh, Sangu, I'm checking the screenshot that you've shared. Let me see what you've shared.
+Speaker 1:  Uh, I checked your computer for the tools. None of them were active.
+Speaker 1:  I will let you know what needs to be installed. Please go ahead and install all the tools.
+Speaker 1:  Yeah, click on, uh, please go ahead and install all the tools. Sangu, please click on, uh, please go ahead and install all the tools.
+Speaker 1:  You need to tell that particular prompt. Okay, it's asking me permission.
+Speaker 1:  Let me click on submit. Those of you who have finished, uh, until 55, right, that is installing taste skill, go ahead and paste this prompt.
+Speaker 1:  Okay, I love. Do we need to type this also in prompt after it finishes?
+Speaker 1:  Stop. Yes, yes, yes.
+Speaker 1:  Whatever is there, just copy-paste.
+Speaker 1:  Okay, I've, I've started creating your Next.js portfolio project using Tailwind CSS in the background. I'll monitor it as it finishes setting up.
+Speaker 1:  Okay, so you can see that it started running. It's doing some magic.
+Speaker 1:  Be careful. You need to update your LinkedIn profile in the prompt.
+Speaker 1:  Yeah, of course. You have to update your LinkedIn profile in the prompt.
+Speaker 1:  You are at which step? My system crashed.
+Speaker 1:  Connecting from mobile. I am on step 43.
+Speaker 1:  Uh, we are at 55. 55, 56.
+Speaker 1:  Rohit, I'm not sure if you heard, but I was just mentioning that, uh, the document is fully detailed, right, uh, with all the screenshots and everything that you can, you actually see on anti-gravity. Okay, so if you actually just read out what is mentioned, okay, you should be able to follow up.
+Speaker 1:  Okay, but of course, I am here until the breakout room is open. Uh, so feel free to ask questions if you are stuck, and I'll try to help, help you out.
+Speaker 1:  The page design didn't change from first version. Is it that during the class I installed taste skills already, and hence the first design was?
+Speaker 1:  Uh, could be. If you have already installed taste skill, then probably the first version was already with, with your taste.
+Speaker 1:  Oh, please keep a watch on this because it could be waiting for your approval. Okay, anti-gravity.
+Speaker 1:  Okay, submit, submit, submit.
+Speaker 1:  Uh, Margishi, if you have reached 55, go ahead and copy-paste the next prompt. Step 9.
+Speaker 1:  Okay, of course, change, uh, the LinkedIn profile link.
+Speaker 1:  And, uh, as it is shown, if it is showing you implementation plan, review it and click proceed.
+Speaker 1:  Okay, Anita, GitHub is getting installed.
+Speaker 1:  Now I'm stuck in, uh, Yamini, are you referring to Versal?
+Speaker 1:  Okay, we've still not come to Versal, so please hold on.
+Speaker 1:  Project names can be up to 100 characters long and must be lowercase. Just, uh, change your Y to lowercase.
+Speaker 1:  That's all.
+Speaker 1:  I asked it to add some things from my website because I don't have much on LinkedIn. Nice product.
+Speaker 1:  Okay, Rebecca, let me just have a look. Oh, wow.
+Speaker 1:  Looks super cool, isn't it?
+Speaker 1:  Very good.
+Speaker 1:  Very good. Okay, super.
+Speaker 1:  Thank you for sharing that. Looks very nice.
+Speaker 1:  I've shared the feedback form link in the chat. Please share your feedback.
+Speaker 1:  And I'm also sharing my LinkedIn link. Yamini, okay, let me check.
+Speaker 1:  Oh, I missed it. Let me check what have you shared again.
+Speaker 1:  What's this? What's what?
+Speaker 1:  The provided GitHub repository does not contain the requested branch or commit reference. Please ensure the repository is not empty.
+Speaker 1:  Um, okay, wait.
+Speaker 1:  Uh, Yamini, please wait. Okay, we'll see what's happening at your end.
+Speaker 1:  Maybe you have missed some step. Let's check that.
+Speaker 1:  Oh, Siddharth has shared the link. Let's quickly check.
+Speaker 1:  What's that? Oh, wow.
+Speaker 1:  Looks nice. Looks nice.
+Speaker 1:  Very good. Even the color combination and everything has come out really well.
+Speaker 1:  Please explain step 56 to 58. Uh, 56.
+Speaker 1:  I mean, 56 to 58 is nothing, but we copy-paste this particular prompt that we have got, uh, in step 9. Okay, you have to change the LinkedIn URL to your profile URL.
+Speaker 1:  Okay, and if at all, anti-gravity shows you something like this, okay, where it says, uh, this is the implementation plan, are you okay with it? Okay, then you can review it and click on proceed.
+Speaker 1:  Okay, that's all you have to do. Oh, okay, I missed this.
+Speaker 1:  Uh, Siddharth, please share your feedback. I've shared the link just above.
+Speaker 1:  Please share it. It's still building, building, building.
+Speaker 1:  Shared my feedback. Thank you.
+Speaker 1:  Amazing, Siddharth. Have a great evening.
+Speaker 1:  Take care.
+Speaker 1:  Yep, I have to keep checking this. Anybody stuck with anything?
+Speaker 1:  Please put it in chat. Devakar, success.
+Speaker 1:  I've created a tracker in your folder and successfully uploaded your project.pdf file to your GitHub link. Uh, you can click that link to see your files safely stored on GitHub.
+Speaker 1:  Now that the setup is completely finished, would you like me to share a simple plan for what your website would look like before we start building it? Now on Versal.
+Speaker 1:  Okay. Uh, Devakar, is there any, um, option that it is asking you to?
+Speaker 1:  What step are you in? In the loop, post step 9 prompting.
+Speaker 1:  Yeah, Benjamin, it, it might take some time, so just wait. Hold on for that to finish.
+Speaker 1:  Not sure what to do next and on which step I am at. Are you able to see this?
+Speaker 1:  Yamini, yes.
+Speaker 1:  Able to see this. Super cool.
+Speaker 1:  There you go. You've got your portfolio website ready.
+Speaker 1:  Share your feedback, Yamini.
+Speaker 1:  Um, Devakar, which step are you in? What, what did you do last?
+Speaker 1:  It asked me to install many applications, kept on approving, and reached here. Yeah, so which particular step where did you finish?
+Speaker 1:  Which particular prompt did you copy-paste the last?
+Speaker 1:  Go ahead and paste the next prompt. Add, did you add the taste skill?
+Speaker 1:  If not, please add that.
+Speaker 1:  What's happening with my?
+Speaker 1:  Yeah, next config.ts. Source app.
+Speaker 1:  Oh, yeah. I think it's almost done.
+Speaker 1:  Let's quickly check. Uh, not reached till taste skill.
+Speaker 1:  I have added two prompts. Okay, then go ahead and add the taste skill.
+Speaker 1:  You just have to copy-paste this prompt. Add that.
+Speaker 1:  Again, it'll ask you for permission. Go ahead and give the permission.
+Speaker 1:  Installing GitHub CLI in the background. I will notify you as soon as it completes.
+Speaker 1:  Still running here. Maniraj, okay.
+Speaker 1:  I mean, you just have to wait until it finishes. Nothing that we can do about it.
+Speaker 1:  Anti-gravity is silently and slowly installing it. I have read the steps to completion though and understood.
+Speaker 1:  So I will wait and complete from step 41 on my own. Okay, Sheldon.
+Speaker 1:  Cool. I asked anti-gravity to ignore the previous step, then opened new window and restarted step 41.
+Speaker 1:  Okay, done.
+Speaker 1:  Uh, I don't know why it's not the link. Um, Vittoria, can you share the link?
+Speaker 1:  Because something is missing. Fingers crossed.
+Speaker 1:  Oh, yeah, fingers crossed for all of you. Hopefully we'll— Oh, I don't know why it's not coming as a link.
+Speaker 1:  Oh, uh, you've not added HTTPS, so. But let's open it up.

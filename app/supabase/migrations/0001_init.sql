@@ -60,6 +60,13 @@ create table answers (
 );
 create index answers_user_created on answers (user_id, created_at desc);
 
+-- Generated columns only accept immutable expressions, and array_to_string() is only stable.
+-- This wrapper is safe to mark immutable: its output depends only on its inputs.
+create or replace function notes_search_tsv(p_title text, p_body text, p_tags text[]) returns tsvector
+language sql immutable parallel safe as $$
+  select to_tsvector('english'::regconfig, coalesce(p_title, '') || ' ' || p_body || ' ' || coalesce(array_to_string(p_tags, ' '), ''));
+$$;
+
 create table notes (
   id uuid primary key default gen_random_uuid(),
   owner_id uuid not null references profiles on delete cascade,
@@ -72,9 +79,7 @@ create table notes (
   answer_id uuid references answers on delete set null,
   meta_locked boolean not null default false,
   organise_status organise_status not null default 'pending',
-  search_tsv tsvector generated always as (
-    to_tsvector('english', coalesce(title, '') || ' ' || body || ' ' || array_to_string(tags, ' '))
-  ) stored,
+  search_tsv tsvector generated always as (notes_search_tsv(title, body, tags)) stored,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint notes_visibility_group check ((visibility = 'group') = (group_id is not null))
@@ -230,11 +235,21 @@ revoke execute on function match_chunks_for_user from public, anon, authenticate
 -- Triggers ----------------------------------------------------------------
 create or replace function handle_new_user() returns trigger
 language plpgsql security definer set search_path = public as $$
+declare
+  v_name text;
 begin
+  -- Google full name, else the email prefix (FR-AUTH-02), fitted to the 2–40 character rule.
+  v_name := left(trim(coalesce(
+    nullif(trim(new.raw_user_meta_data->>'full_name'), ''),
+    nullif(trim(new.raw_user_meta_data->>'name'), ''),
+    split_part(new.email, '@', 1)
+  )), 40);
+  if char_length(v_name) < 2 then v_name := rpad(coalesce(v_name, ''), 2, '_'); end if;
+
   insert into profiles (id, display_name, email, avatar_url)
   values (
     new.id,
-    coalesce(new.raw_user_meta_data->>'full_name', split_part(new.email, '@', 1)),
+    v_name,
     new.email,
     new.raw_user_meta_data->>'avatar_url'
   );

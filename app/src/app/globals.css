@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* NoteHive tokens · copied from "NoteHive Design System.dc.html" */
+:root {
+  --bg: oklch(0.982 0.003 250);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.962 0.004 250);
+  --surface-3: oklch(0.935 0.005 250);
+  --border: oklch(0.912 0.006 250);
+  --border-strong: oklch(0.84 0.008 250);
+  --text: oklch(0.22 0.014 255);
+  --text-2: oklch(0.44 0.013 255);
+  --text-3: oklch(0.54 0.011 255);
+  --accent: oklch(0.8 0.15 78);
+  --accent-ink: oklch(0.24 0.05 65);
+  --accent-text: oklch(0.5 0.11 60);
+  --accent-soft: oklch(0.965 0.03 85);
+  --accent-border: oklch(0.87 0.07 82);
+  --success: oklch(0.5 0.12 155);
+  --success-soft: oklch(0.96 0.03 155);
+  --warning: oklch(0.53 0.13 55);
+  --warning-soft: oklch(0.965 0.03 70);
+  --error: oklch(0.52 0.18 27);
+  --error-soft: oklch(0.965 0.02 25);
+  --inverse: oklch(0.24 0.014 255);
+  --inverse-text: oklch(0.97 0.003 250);
+  --inverse-accent: oklch(0.82 0.14 80);
+  --focus: oklch(0.5 0.11 60);
+  --shadow: 0 1px 2px oklch(0.2 0.02 255 / 0.06), 0 8px 24px oklch(0.2 0.02 255 / 0.08);
+  --shadow-overlay: 0 2px 6px oklch(0.2 0.02 255 / 0.08), 0 24px 64px oklch(0.2 0.02 255 / 0.18);
+  color-scheme: light;
+}
+
+.dark {
+  --bg: oklch(0.165 0.008 255);
+  --surface: oklch(0.2 0.009 255);
+  --surface-2: oklch(0.235 0.01 255);
+  --surface-3: oklch(0.27 0.011 255);
+  --border: oklch(0.29 0.011 255);
+  --border-strong: oklch(0.38 0.012 255);
+  --text: oklch(0.95 0.004 250);
+  --text-2: oklch(0.77 0.01 255);
+  --text-3: oklch(0.67 0.01 255);
+  --accent: oklch(0.82 0.14 80);
+  --accent-ink: oklch(0.22 0.04 65);
+  --accent-text: oklch(0.83 0.13 80);
+  --accent-soft: oklch(0.26 0.035 75);
+  --accent-border: oklch(0.42 0.07 75);
+  --success: oklch(0.76 0.13 155);
+  --success-soft: oklch(0.26 0.04 155);
+  --warning: oklch(0.8 0.13 70);
+  --warning-soft: oklch(0.27 0.04 70);
+  --error: oklch(0.74 0.15 25);
+  --error-soft: oklch(0.27 0.05 25);
+  --inverse: oklch(0.93 0.004 250);
+  --inverse-text: oklch(0.2 0.01 255);
+  --inverse-accent: oklch(0.5 0.11 60);
+  --focus: oklch(0.83 0.13 80);
+  --shadow: 0 1px 2px oklch(0 0 0 / 0.3), 0 8px 24px oklch(0 0 0 / 0.35);
+  --shadow-overlay: 0 2px 6px oklch(0 0 0 / 0.35), 0 24px 64px oklch(0 0 0 / 0.5);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-ink: var(--text);
+  --color-ink-2: var(--text-2);
+  --color-ink-3: var(--text-3);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-text: var(--accent-text);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-border: var(--accent-border);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-error: var(--error);
+  --color-error-soft: var(--error-soft);
+  --color-inverse: var(--inverse);
+  --color-inverse-text: var(--inverse-text);
+  --color-inverse-accent: var(--inverse-accent);
+  --color-focus: var(--focus);
+
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-read: var(--font-source-serif), Georgia, serif;
+
+  --shadow-card: var(--shadow);
+  --shadow-overlay: var(--shadow-overlay);
+
+  --radius-chip: 6px;
+  --radius-control: 8px;
+  --radius-card: 12px;
+  --radius-dialog: 16px;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* In the base layer so text fields can opt out with `outline-none` (their container shows focus instead). */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+}
+
+.material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  vertical-align: middle;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+.spin {
+  animation: nh-spin 1s linear infinite;
+}
+@keyframes nh-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.skeleton {
+  background: var(--surface-3);
+  border-radius: 5px;
+  animation: nh-pulse 1.4s ease-in-out infinite;
+}
+@keyframes nh-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes nh-highlight {
+  from {
+    background: var(--accent-soft);
+  }
+}
+.flash {
+  animation: nh-highlight 2.4s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin,
+  .skeleton,
+  .flash {
+    animation: none;
+  }
+}
+
+/* Markdown rendering for note bodies and previews */
+.prose-note {
+  font-family: var(--font-read);
+}
+.prose-note > * + * {
+  margin-top: 0.75em;
+}
+.prose-note h1,
+.prose-note h2,
+.prose-note h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.prose-note h1 {
+  font-size: 1.35em;
+}
+.prose-note h2 {
+  font-size: 1.2em;
+}
+.prose-note h3 {
+  font-size: 1.05em;
+}
+.prose-note ul {
+  list-style: disc;
+  padding-left: 1.3em;
+}
+.prose-note ol {
+  list-style: decimal;
+  padding-left: 1.3em;
+}
+.prose-note a {
+  color: var(--accent-text);
+  text-decoration: underline;
+}
+.prose-note code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.prose-note pre {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  overflow-x: auto;
+}
+.prose-note pre code {
+  border: 0;
+  padding: 0;
+  background: none;
+}

@@ -162,25 +162,34 @@ create or replace function join_group_by_id(p_group_id uuid)
 returns table (group_id uuid, name text, already_member boolean)
 language plpgsql security definer set search_path = public as $$
 declare
-  was_member boolean;
+  v_name text;
+  v_already boolean;
 begin
   if auth.uid() is null then raise exception 'UNAUTHENTICATED'; end if;
-  select exists (select 1 from group_members gm where gm.group_id = p_group_id and gm.user_id = auth.uid()) into was_member;
-  if not was_member then
-    insert into group_members (group_id, user_id) values (p_group_id, auth.uid());
+  select exists (select 1 from group_members gm where gm.group_id = p_group_id and gm.user_id = auth.uid()) into v_already;
+  if not v_already then
+    insert into group_members (group_id, user_id, role) values (p_group_id, auth.uid(), 'member');
   end if;
-  return query select g.id, g.name, was_member from groups g where g.id = p_group_id;
+  select g.name into v_name from groups g where g.id = p_group_id;
+  return query select p_group_id, v_name, v_already;
 end $$;
 
 create or replace function join_group(p_code text)
 returns table (group_id uuid, name text, already_member boolean)
 language plpgsql security definer set search_path = public as $$
 declare
-  gid uuid;
+  v_group groups;
+  v_already boolean;
 begin
-  select id into gid from groups where join_code = upper(p_code);
-  if gid is null then raise exception 'INVALID_CODE'; end if;
-  return query select * from join_group_by_id(gid);
+  select * into v_group from groups where join_code = upper(p_code);
+  if v_group.id is null then raise exception 'INVALID_CODE'; end if;
+  select exists (
+    select 1 from group_members gm where gm.group_id = v_group.id and gm.user_id = auth.uid()
+  ) into v_already;
+  if not v_already then
+    insert into group_members (group_id, user_id, role) values (v_group.id, auth.uid(), 'member');
+  end if;
+  return query select v_group.id, v_group.name, v_already;
 end $$;
 
 create or replace function my_groups()

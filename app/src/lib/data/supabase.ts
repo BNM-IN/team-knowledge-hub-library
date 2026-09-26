@@ -221,6 +221,14 @@ export function createSupabaseData(sb: SupabaseClient): DataSource {
       if (patch.body !== undefined) {
         const { data: cur } = await sb.from("notes").select("body").eq("id", id).single();
         if (!cur || patch.body !== cur.body) row.organise_status = "pending";
+      } else if (patch.title !== undefined || patch.category !== undefined || patch.tags !== undefined) {
+        // User edited meta directly (title/category/tags) without changing the body.
+        // Rescue the note if it is stuck at "pending" — the notes_touch trigger will set
+        // meta_locked=true anyway, so n8n will not overwrite these values later, and any
+        // still-in-flight organise-note webhook that arrives afterwards will just no-op the
+        // meta and re-set organise_status=done. This is the defensive escape hatch for
+        // notes stranded by an n8n timeout or a pre-fix legacy row.
+        row.organise_status = "done";
       }
       const { data, error } = await sb.from("notes").update(row).eq("id", id).select(NOTE_SELECT).single();
       if (error) throw error;

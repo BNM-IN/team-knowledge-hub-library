@@ -19,7 +19,10 @@ import type { GroupDetail } from "@/lib/data/types";
 /** S6 · note page body. The user's words lead; AI content (linked answer) is secondary and collapsible. */
 export function NoteView({ note, isOwner, groups, group, linkedAnswer }: { note: Note; isOwner: boolean; groups: Group[]; group: GroupDetail | null; linkedAnswer: Answer | null }) {
   const [confirm, setConfirm] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
+  // Notes written from an Ask answer are meant to keep that answer's full context with them —
+  // show it by default instead of behind a click, so it's still there weeks later without
+  // making the reader hunt for a "Show answer" toggle.
+  const [showAnswer, setShowAnswer] = useState(true);
   const [pending, start] = useTransition();
   const router = useRouter();
   const toast = useToast();

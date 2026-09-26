@@ -207,7 +207,14 @@ export function createSupabaseData(sb: SupabaseClient): DataSource {
     },
     async updateNote(id, patch) {
       const row = notesToInsert(patch);
-      if (patch.body !== undefined) row.organise_status = "pending";
+      // Only re-arm organise_status when the body actually changed — matching mock.ts's
+      // `patch.body !== n.body` check. Flagging "pending" on presence alone (the previous
+      // bug here) reset the status on every save, including pure category/title/tag edits
+      // that never queue a real organise run, leaving the note stuck showing "Organising…".
+      if (patch.body !== undefined) {
+        const { data: cur } = await sb.from("notes").select("body").eq("id", id).single();
+        if (!cur || patch.body !== cur.body) row.organise_status = "pending";
+      }
       const { data, error } = await sb.from("notes").update(row).eq("id", id).select(NOTE_SELECT).single();
       if (error) throw error;
       return toNote(data as NoteRow);

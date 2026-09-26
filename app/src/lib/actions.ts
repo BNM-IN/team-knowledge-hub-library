@@ -74,8 +74,15 @@ export async function updateNoteAction(id: string, patch: Partial<NoteInput>): P
   try {
     const data = await getData();
     const before = await data.note(id);
-    const note = await data.updateNote(id, parsed.data);
-    if (parsed.data.body !== undefined && parsed.data.body !== before?.body) {
+    const bodyChanged = parsed.data.body !== undefined && parsed.data.body !== before?.body;
+    // The editor always resends `body` on every save (title/category/tag-only edits included).
+    // data.updateNote's Supabase implementation flags organise_status "pending" purely on the
+    // *presence* of a body key, not on whether the value actually changed — so a pure category
+    // edit used to re-arm the "Organising…" spinner without ever queuing a real organise run,
+    // leaving the note stuck forever. Only forward `body` here when it truly changed.
+    const dbPatch = bodyChanged ? parsed.data : { ...parsed.data, body: undefined };
+    const note = await data.updateNote(id, dbPatch);
+    if (bodyChanged) {
       await data.organiseNote(id).catch((e) => console.error("[organise]", e));
     }
     revalidatePath("/", "layout");

@@ -249,7 +249,7 @@ begin
   insert into profiles (id, display_name, email, avatar_url)
   values (
     new.id,
-    v_name,
+    initcap(v_name),
     new.email,
     new.raw_user_meta_data->>'avatar_url'
   );

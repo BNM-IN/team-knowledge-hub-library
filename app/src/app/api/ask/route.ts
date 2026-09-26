@@ -8,6 +8,8 @@ import { timeLabel } from "@/lib/format";
 import { askBlockedUntil } from "@/lib/rate-limit";
 import type { Answer } from "@/lib/types";
 
+export const maxDuration = 30;
+
 const body = z.object({
   question: z.string().trim().min(3, "Ask with at least 3 characters.").max(500, "Keep questions under 500 characters."),
   scope_group_id: z.string().min(1).nullable().default(null),

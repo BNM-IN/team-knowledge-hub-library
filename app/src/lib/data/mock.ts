@@ -3,7 +3,7 @@
 // State lives on globalThis so it survives hot reloads in `next dev`.
 import { isCategory, type Category } from "../categories";
 import { organiseHeuristic } from "../mock/knowledge";
-import type { Answer, Group, Note, Profile, Role, Source } from "../types";
+import type { Answer, Group, GroupMember, Note, Profile, Role, Source } from "../types";
 import type { DataSource, GroupDetail } from "./types";
 
 interface GroupRow {
@@ -250,6 +250,15 @@ export function createMockData(viewerId: string | null): DataSource {
       const alreadyMember = isMember(groupId);
       if (!alreadyMember) s.members.push({ groupId, userId: me(), role: "member" });
       return { group: toGroup(row), alreadyMember };
+    },
+    async groupMembers(groupId) {
+      return s.members
+        .filter((m) => m.groupId === groupId)
+        .map((m): GroupMember => {
+          const p = s.profiles.find((x) => x.id === m.userId);
+          return { userId: m.userId, displayName: p?.displayName ?? "Unknown", avatarUrl: p?.avatarUrl ?? null, role: m.role, joinedAt: new Date().toISOString() };
+        })
+        .sort((a, b) => (a.role === "owner" ? -1 : b.role === "owner" ? 1 : 0));
     },
     async joinByCode(code) {
       const row = s.groups.find((x) => x.joinCode === code.trim().toUpperCase());

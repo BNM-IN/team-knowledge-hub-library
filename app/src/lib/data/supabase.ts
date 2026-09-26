@@ -2,7 +2,7 @@ import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { isCategory } from "../categories";
 import { callN8n } from "../n8n";
-import type { Answer, Group, Note, NoteInput, Profile, Source } from "../types";
+import type { Answer, Group, GroupMember, Note, NoteInput, Profile, Source } from "../types";
 import type { DataSource } from "./types";
 
 // Row shapes returned by the selects below.
@@ -138,6 +138,13 @@ export function createSupabaseData(sb: SupabaseClient): DataSource {
       const row = (data as { group_id: string; name: string; already_member: boolean }[])[0];
       const group = (await myGroups()).find((g) => g.id === row.group_id)!;
       return { group, alreadyMember: row.already_member };
+    },
+    async groupMembers(groupId) {
+      const { data, error } = await sb.rpc("group_members_list", { p_group_id: groupId });
+      if (error) throw error;
+      return (data ?? []).map((r: { user_id: string; display_name: string; avatar_url: string | null; role: GroupMember["role"]; joined_at: string }) => ({
+        userId: r.user_id, displayName: r.display_name, avatarUrl: r.avatar_url, role: r.role, joinedAt: r.joined_at,
+      }));
     },
     async joinByCode(code) {
       const { data, error } = await sb.rpc("join_group", { p_code: code.trim().toUpperCase() });

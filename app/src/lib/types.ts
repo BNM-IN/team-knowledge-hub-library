@@ -26,6 +26,14 @@ export interface Group {
   joinCode?: string | null;
 }
 
+export interface GroupMember {
+  userId: string;
+  displayName: string;
+  avatarUrl: string | null;
+  role: Role;
+  joinedAt: string;
+}
+
 export interface Note {
   id: string;
   ownerId: string;

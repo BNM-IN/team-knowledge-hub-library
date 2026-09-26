@@ -192,6 +192,18 @@ begin
   return query select v_group.id, v_group.name, v_already;
 end $$;
 
+create or replace function group_members_list(p_group_id uuid)
+returns table (user_id uuid, display_name text, avatar_url text, role member_role, joined_at timestamptz)
+language sql stable security definer set search_path = public as $$
+  select p.id, p.display_name, p.avatar_url, gm.role, gm.joined_at
+  from group_members gm
+  join profiles p on p.id = gm.user_id
+  where gm.group_id = p_group_id
+  order by
+    case gm.role when 'owner' then 0 else 1 end,
+    gm.joined_at;
+$$;
+
 create or replace function my_groups()
 returns table (group_id uuid, name text, role member_role, is_default boolean, member_count bigint, join_code char(6))
 language sql stable security definer set search_path = public as $$

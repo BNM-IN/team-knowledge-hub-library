@@ -1,4 +1,4 @@
-import type { Answer, Group, Note, NoteInput, Profile } from "../types";
+import type { Answer, Group, GroupMember, Note, NoteInput, Profile } from "../types";
 
 export type GroupDetail = Group & { isMember: boolean };
 
@@ -14,6 +14,7 @@ export interface DataSource {
   joinGroup(groupId: string): Promise<{ group: Group; alreadyMember: boolean }>;
   /** Returns null when the code matches no group. */
   joinByCode(code: string): Promise<{ group: Group; alreadyMember: boolean } | null>;
+  groupMembers(groupId: string): Promise<GroupMember[]>;
 
   recentAnswers(limit?: number): Promise<Answer[]>;
   answer(id: string): Promise<Answer | null>;

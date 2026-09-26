@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { TopBar } from "@/components/app-shell";
 import { StatusChip } from "@/components/chips";
 import { JoinGroupButton } from "@/components/citations";
-import { InviteBlock } from "@/components/group-dialogs";
 import { GroupFeed } from "@/components/group-feed";
+import { MembersPanel } from "@/components/members-panel";
 import { NoteComposer } from "@/components/note-composer";
 import { btn, Icon } from "@/components/ui";
 import { getData } from "@/lib/data";
@@ -16,7 +16,7 @@ export const metadata: Metadata = { title: "Group" };
 export default async function GroupPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const data = await getData();
-  const [group, notes, groups] = await Promise.all([data.group(id), data.groupNotes(id), data.myGroups()]);
+  const [group, notes, groups, members] = await Promise.all([data.group(id), data.groupNotes(id), data.myGroups(), data.groupMembers(id)]);
   if (!group) notFound();
 
   return (
@@ -41,7 +41,6 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
               </div>
               {!group.isMember && <JoinGroupButton groupId={group.id} groupName={group.name} variant="primary" />}
             </div>
-            {group.isMember && group.joinCode && <InviteBlock code={group.joinCode} />}
             <div>
               <Link href={`/?scope=${group.id}`} className={btn("secondary", "sm")}>
                 <Icon name="search" size={16} />
@@ -49,6 +48,8 @@ export default async function GroupPage({ params }: { params: Promise<{ id: stri
               </Link>
             </div>
           </div>
+
+          <MembersPanel members={members} joinCode={group.isMember ? group.joinCode : null} />
 
           {group.isMember ? (
             <NoteComposer groups={groups} defaultGroupId={group.id} draftKey={`nh-draft:group:${group.id}`} title="Post a note to this group" lockGroup />

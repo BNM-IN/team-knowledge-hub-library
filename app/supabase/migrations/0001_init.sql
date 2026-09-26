@@ -136,7 +136,7 @@ begin
 end $$;
 
 create or replace function create_group(p_name text, p_topic text default null, p_description text default null)
-returns table (group_id uuid, join_code char(6))
+returns table (group_id uuid, group_code char(6))
 language plpgsql security definer set search_path = public as $$
 declare
   gid uuid;
@@ -205,7 +205,7 @@ language sql stable security definer set search_path = public as $$
 $$;
 
 create or replace function my_groups()
-returns table (group_id uuid, name text, role member_role, is_default boolean, member_count bigint, join_code char(6))
+returns table (group_id uuid, name text, role member_role, is_default boolean, member_count bigint, group_code char(6))
 language sql stable security definer set search_path = public as $$
   select g.id, g.name, gm.role, g.is_default,
          (select count(*) from group_members x where x.group_id = g.id),

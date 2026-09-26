@@ -57,8 +57,8 @@ export function createSupabaseData(sb: SupabaseClient): DataSource {
     (groupsCache ??= (async () => {
       const { data, error } = await sb.rpc("my_groups");
       if (error) throw error;
-      return (data ?? []).map((g: { group_id: string; name: string; role: Group["role"]; is_default: boolean; member_count: number; join_code: string }) => ({
-        id: g.group_id, name: g.name, role: g.role, isDefault: g.is_default, memberCount: Number(g.member_count), joinCode: g.join_code,
+      return (data ?? []).map((g: { group_id: string; name: string; role: Group["role"]; is_default: boolean; member_count: number; group_code: string }) => ({
+        id: g.group_id, name: g.name, role: g.role, isDefault: g.is_default, memberCount: Number(g.member_count), joinCode: g.group_code,
       }));
     })());
 
@@ -128,8 +128,8 @@ export function createSupabaseData(sb: SupabaseClient): DataSource {
       const { data, error } = await sb.rpc("create_group", { p_name: name, p_topic: topic ?? null, p_description: description ?? null });
       if (error) throw error;
       groupsCache = null;
-      const row = (data as { group_id: string; join_code: string }[])[0];
-      return { id: row.group_id, name, topic, description, isDefault: false, memberCount: 1, role: "owner", joinCode: row.join_code };
+      const row = (data as { group_id: string; group_code: string }[])[0];
+      return { id: row.group_id, name, topic, description, isDefault: false, memberCount: 1, role: "owner", joinCode: row.group_code };
     },
     async joinGroup(groupId) {
       const { data, error } = await sb.rpc("join_group_by_id", { p_group_id: groupId });
